@@ -1,6 +1,6 @@
 name "EV Nova Module"
 about "Adds ships, outfits, and factions inspired by Escape Velocity Nova. This module introduces the Federation, Auroran Empire, Polaris, Pirates, and Rebellion factions with their iconic ships and equipment while preserving the original Endless Sky content."
-version "1.0.0"
+version "0.0.1"
 authors
 	"Endless Velocity Team"
 tags
@@ -13,5 +13,5 @@ dependencies
 	"game version" "0.10.3"
 	optional
 		"Arpia2 Module"
-	conflicts
 		"Overhaul Module"
+	# No conflicts - designed to work with all modules
