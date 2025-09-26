@@ -1,0 +1,18 @@
+name "Overhaul Module"
+about "Complete overhaul that transforms Endless Sky into the EV Nova universe. Replaces all systems, factions, and core content with EV Nova equivalents. WARNING: This module completely changes the game experience and conflicts with other content modules."
+version "1.0.0"
+authors
+	"Endless Velocity Team"
+tags
+	"Overhaul"
+	"EV Nova"
+	"Complete Replacement"
+	"Systems"
+	"Total Conversion"
+dependencies
+	"game version" "0.10.3"
+	requires
+		"EV Nova Module"
+		"Arpia2 Module"
+	conflicts
+		# This module conflicts with any other major content mods

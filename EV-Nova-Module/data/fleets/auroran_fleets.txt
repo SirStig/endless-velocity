@@ -1,0 +1,81 @@
+# Auroran Fleets - EV Nova Module
+# Fleet compositions for the Auroran Empire and its clans
+
+fleet "Small Auroran"
+	government "Auroran Empire"
+	names "auroran"
+	fighters "auroran fighter"
+	cargo 2
+	personality
+		heroic vindictive
+	variant 2
+		"Auroran Firebird"
+	variant 1
+		"Auroran Firebird" 2
+	variant 1
+		"Auroran Phoenix"
+
+fleet "Large Auroran"
+	government "Auroran Empire"
+	names "auroran"
+	fighters "auroran fighter"
+	cargo 4
+	personality
+		heroic vindictive
+	variant 2
+		"Auroran Thunderforge"
+		"Auroran Phoenix" 2
+	variant 1
+		"Auroran Abomination"
+		"Auroran Firebird" 4
+	variant 1
+		"Auroran Carrier"
+		"Auroran Phoenix" 3
+
+fleet "Small Moash"
+	government "House Moash"
+	names "moash"
+	fighters "auroran fighter"
+	cargo 2
+	personality
+		heroic vindictive
+	variant 2
+		"Auroran Firebird"
+	variant 1
+		"Auroran Phoenix"
+
+fleet "Small Dani"
+	government "House Dani"
+	names "dani"
+	cargo 3
+	personality
+		disables opportunistic
+	variant 2
+		"Auroran Enterprise"
+	variant 1
+		"Auroran Enterprise"
+		"Auroran Firebird"
+
+fleet "Small Heraan"
+	government "House Heraan"
+	names "heraan"
+	fighters "auroran fighter"
+	cargo 1
+	personality
+		heroic vindictive plunders
+	variant 2
+		"Auroran Phoenix"
+	variant 1
+		"Auroran Thunderforge"
+
+fleet "Small Rauther"
+	government "House Rauther"
+	names "rauther"
+	fighters "auroran fighter"
+	cargo 2
+	personality
+		heroic vindictive
+	variant 2
+		"Auroran Phoenix"
+	variant 1
+		"Auroran Thunderforge"

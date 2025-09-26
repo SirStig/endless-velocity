@@ -1,0 +1,261 @@
+# Auroran Empire - EV Nova Module
+# The warrior culture of the Auroran Empire with its clan-based society
+
+government "Auroran Empire"
+	"display name" "Auroran Empire"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" -0.1
+		"Federation" -0.8
+		"Pirate" -0.3
+		"Rebel" -0.2
+		"Polaris" 0.2
+		"Vell-os" 0.3
+	"penalty for"
+		"attacking innocent" 0.2
+		"attacking civilian" 0.1
+		"attacking disabled" 0.4
+		"boarding ship" 0.05
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.9 0.6 0.1
+	"friendly hail" "friendly auroran"
+	"hostile hail" "hostile auroran"
+	"language" "Auroran"
+	"raid" "Small Auroran"
+
+# Individual Clan Governments
+government "House Moash"
+	"display name" "House Moash"
+	"player reputation" 0
+	"attitude toward"
+		"Auroran Empire" 0.8
+		"House Dani" 0.3
+		"House Heraan" 0.1
+		"House Rauther" 0.2
+		"Federation" -1.0
+		"Pirate" -0.5
+	"penalty for"
+		"attacking innocent" 0.3
+		"attacking civilian" 0.2
+		"attacking disabled" 0.5
+		"boarding ship" 0.1
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.8 0.2 0.2
+	"friendly hail" "friendly moash"
+	"hostile hail" "hostile moash"
+	"language" "Auroran"
+	"raid" "Small Moash"
+
+government "House Dani"
+	"display name" "House Dani"
+	"player reputation" 0
+	"attitude toward"
+		"Auroran Empire" 0.8
+		"House Moash" 0.3
+		"House Heraan" 0.2
+		"House Rauther" 0.4
+		"Merchant" 0.3
+		"Federation" -0.6
+		"Pirate" -0.2
+	"penalty for"
+		"attacking innocent" 0.4
+		"attacking civilian" 0.3
+		"attacking disabled" 0.3
+		"boarding ship" 0.05
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.2 0.6 0.8
+	"friendly hail" "friendly dani"
+	"hostile hail" "hostile dani"
+	"language" "Auroran"
+	"raid" "Small Dani"
+
+government "House Heraan"
+	"display name" "House Heraan"
+	"player reputation" 0
+	"attitude toward"
+		"Auroran Empire" 0.8
+		"House Moash" 0.1
+		"House Dani" 0.2
+		"House Rauther" 0.1
+		"Federation" -0.9
+		"Pirate" 0.1
+		"Rebel" 0.2
+	"penalty for"
+		"attacking innocent" 0.1
+		"attacking civilian" 0.05
+		"attacking disabled" 0.2
+		"boarding ship" 0.02
+		"assisting wanted" 0.05
+		"scanning cargo" 0
+	"color" 0.6 0.8 0.2
+	"friendly hail" "friendly heraan"
+	"hostile hail" "hostile heraan"
+	"language" "Auroran"
+	"raid" "Small Heraan"
+
+government "House Rauther"
+	"display name" "House Rauther"
+	"player reputation" 0
+	"attitude toward"
+		"Auroran Empire" 0.8
+		"House Moash" 0.2
+		"House Dani" 0.4
+		"House Heraan" 0.1
+		"Federation" -0.7
+		"Polaris" 0.4
+		"Vell-os" 0.5
+	"penalty for"
+		"attacking innocent" 0.3
+		"attacking civilian" 0.2
+		"attacking disabled" 0.4
+		"boarding ship" 0.1
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.8 0.4 0.8
+	"friendly hail" "friendly rauther"
+	"hostile hail" "hostile rauther"
+	"language" "Auroran"
+	"raid" "Small Rauther"
+
+phrase "friendly auroran"
+	word
+		"Honor to you, "
+		"Greetings, "
+		"Strength to you, "
+	word
+		"warrior. "
+		"pilot. "
+		"traveler. "
+	word
+		"May your battles bring glory."
+		"The Empire acknowledges your strength."
+		"Fight well and die with honor."
+
+phrase "hostile auroran"
+	word
+		"Coward! "
+		"Weakling! "
+		"Dishonored fool! "
+	word
+		"You have "
+		"Your actions "
+		"You will "
+	word
+		"brought shame upon yourself!"
+		"face the fury of the Empire!"
+		"die without honor!"
+
+phrase "friendly moash"
+	word
+		"House Moash greets you, "
+		"Warrior of tradition, "
+		"Keeper of the old ways, "
+	word
+		"honor-bound one. "
+		"faithful pilot. "
+		"true believer. "
+	word
+		"The ancient codes guide us."
+		"Tradition is our strength."
+		"Honor above all else."
+
+phrase "hostile moash"
+	word
+		"Betrayer of tradition! "
+		"Dishonorer of the codes! "
+		"Enemy of honor! "
+	word
+		"House Moash "
+		"The old ways "
+		"Ancient justice "
+	word
+		"will see you punished!"
+		"demand your destruction!"
+		"calls for your death!"
+
+phrase "friendly dani"
+	word
+		"House Dani welcomes you, "
+		"Greetings from the traders, "
+		"Peace and profit to you, "
+	word
+		"wise merchant. "
+		"skilled negotiator. "
+		"valued partner. "
+	word
+		"May your ventures prosper."
+		"Trade brings strength to all."
+		"Wisdom guides our dealings."
+
+phrase "hostile dani"
+	word
+		"Betrayer of trust! "
+		"Breaker of contracts! "
+		"Enemy of commerce! "
+	word
+		"House Dani "
+		"Our agreements "
+		"Commercial honor "
+	word
+		"will not tolerate this!"
+		"must be upheld by force!"
+		"demands satisfaction!"
+
+phrase "friendly heraan"
+	word
+		"House Heraan salutes you, "
+		"Greetings, fellow warrior, "
+		"The raiders acknowledge you, "
+	word
+		"strong fighter. "
+		"bold pilot. "
+		"worthy adversary. "
+	word
+		"Victory through strength!"
+		"The hunt never ends!"
+		"Glory in battle awaits!"
+
+phrase "hostile heraan"
+	word
+		"Prey! "
+		"Weakling! "
+		"Cowardly scum! "
+	word
+		"House Heraan "
+		"The raiders "
+		"Our warriors "
+	word
+		"will hunt you down!"
+		"smell your fear!"
+		"feast on your defeat!"
+
+phrase "friendly rauther"
+	word
+		"House Rauther greets you, "
+		"The builders welcome you, "
+		"Knowledge seeker, "
+	word
+		"innovative mind. "
+		"wise engineer. "
+		"fellow researcher. "
+	word
+		"Progress through understanding."
+		"Technology serves honor."
+		"Innovation strengthens the Empire."
+
+phrase "hostile rauther"
+	word
+		"Destroyer of progress! "
+		"Enemy of innovation! "
+		"Obstacle to advancement! "
+	word
+		"House Rauther's "
+		"Our technology "
+		"Scientific progress "
+	word
+		"will overcome your ignorance!"
+		"demands your removal!"
+		"requires your elimination!"

@@ -1,0 +1,307 @@
+# Auroran Ships - EV Nova Module
+# Ships of the warrior culture Auroran Empire
+
+ship "Auroran Firebird"
+	sprite "ship/auroran_firebird"
+	thumbnail "thumbnail/auroran_firebird"
+	attributes
+		category "Fighter"
+		"cost" 180000
+		"shields" 1000
+		"hull" 500
+		"required crew" 1
+		"bunks" 2
+		"mass" 50
+		"drag" 1.4
+		"heat dissipation" .80
+		"fuel capacity" 350
+		"cargo space" 12
+		"outfit space" 150
+		"weapon capacity" 35
+		"engine capacity" 45
+		weapon
+			"blast radius" 22
+			"shield damage" 220
+			"hull damage" 110
+			"hit force" 330
+	outfits
+		"Auroran Blaster" 2
+		"Auroran Shield Matrix"
+		"Auroran Power Core"
+		"Auroran Ion Engine"
+		"Auroran Steering"
+		"Hyperdrive"
+	engine -8 28
+	engine 8 28
+	gun -6 -12 "Auroran Blaster"
+	gun 6 -12 "Auroran Blaster"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	"final explode" "final explosion small"
+	description "The Firebird is the primary light fighter of the Auroran Empire. Built for speed and agility, it embodies the Auroran philosophy of swift, decisive strikes. Its energy weapons and advanced shielding make it a formidable opponent despite its small size."
+
+ship "Auroran Phoenix"
+	sprite "ship/auroran_phoenix"
+	thumbnail "thumbnail/auroran_phoenix"
+	attributes
+		category "Light Warship"
+		"cost" 520000
+		"shields" 2200
+		"hull" 1100
+		"required crew" 3
+		"bunks" 6
+		"mass" 140
+		"drag" 3.2
+		"heat dissipation" .75
+		"fuel capacity" 450
+		"cargo space" 35
+		"outfit space" 320
+		"weapon capacity" 95
+		"engine capacity" 85
+		weapon
+			"blast radius" 38
+			"shield damage" 520
+			"hull damage" 260
+			"hit force" 780
+	outfits
+		"Auroran Blaster" 4
+		"Auroran Particle Beam"
+		"Auroran Shield Matrix" 2
+		"Auroran Power Core" 2
+		"Auroran Ion Engine"
+		"Auroran Steering"
+		"Hyperdrive"
+	engine -15 35
+	engine 15 35
+	gun -8 -18 "Auroran Blaster"
+	gun 8 -18 "Auroran Blaster"
+	gun -5 -22 "Auroran Blaster"
+	gun 5 -22 "Auroran Blaster"
+	gun 0 -25 "Auroran Particle Beam"
+	leak "leak" 60 50
+	leak "flame" 70 80
+	leak "big leak" 85 30
+	explode "tiny explosion" 18
+	explode "small explosion" 28
+	explode "medium explosion" 12
+	"final explode" "final explosion medium"
+	description "The Phoenix is a medium fighter that serves as the backbone of Auroran strike forces. Its combination of rapid-fire blasters and a powerful particle beam makes it effective against both fighters and larger vessels. The ship's regenerative shielding can recover quickly between engagements."
+
+ship "Auroran Enterprise"
+	sprite "ship/auroran_enterprise"
+	thumbnail "thumbnail/auroran_enterprise"
+	attributes
+		category "Light Freighter"
+		"cost" 380000
+		"shields" 1800
+		"hull" 1200
+		"required crew" 4
+		"bunks" 12
+		"mass" 180
+		"drag" 4.2
+		"heat dissipation" .70
+		"fuel capacity" 500
+		"cargo space" 120
+		"outfit space" 280
+		"weapon capacity" 65
+		"engine capacity" 75
+		weapon
+			"blast radius" 42
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 570
+	outfits
+		"Auroran Blaster" 2
+		"Auroran Missile" 15
+		"Auroran Missile Pod"
+		"Auroran Shield Matrix" 2
+		"Auroran Power Core"
+		"Auroran Ion Engine"
+		"Auroran Steering"
+		"Hyperdrive"
+	engine -18 45
+	engine 18 45
+	gun -12 -25 "Auroran Blaster"
+	gun 12 -25 "Auroran Blaster"
+	gun 0 -30 "Auroran Missile Pod"
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 18
+	"final explode" "final explosion medium"
+	description "The Enterprise serves as both a freighter and a light warship in the Auroran fleet. Its sturdy construction and defensive armament make it ideal for carrying supplies through contested space. Many merchant clans use modified Enterprises for both trade and combat operations."
+
+ship "Auroran Thunderforge"
+	sprite "ship/auroran_thunderforge"
+	thumbnail "thumbnail/auroran_thunderforge"
+	attributes
+		category "Medium Warship"
+		"cost" 1800000
+		"shields" 5200
+		"hull" 2600
+		"required crew" 15
+		"bunks" 22
+		"mass" 420
+		"drag" 7.8
+		"heat dissipation" .60
+		"fuel capacity" 600
+		"cargo space" 85
+		"outfit space" 620
+		"weapon capacity" 220
+		"engine capacity" 165
+		weapon
+			"blast radius" 85
+			"shield damage" 1800
+			"hull damage" 900
+			"hit force" 2700
+	outfits
+		"Auroran Particle Beam" 3
+		"Auroran Storm Chaingun" 2
+		"Auroran Missile" 40
+		"Auroran Missile Pod" 2
+		"Auroran Shield Matrix" 4
+		"Auroran Fusion Core"
+		"Auroran Ion Drive"
+		"Auroran Steering System"
+		"Hyperdrive"
+	engine -25 55
+	engine 25 55
+	gun -15 -35 "Auroran Particle Beam"
+	gun 15 -35 "Auroran Particle Beam"
+	gun 0 -40 "Auroran Particle Beam"
+	gun -20 -25 "Auroran Storm Chaingun"
+	gun 20 -25 "Auroran Storm Chaingun"
+	gun -8 -30 "Auroran Missile Pod"
+	gun 8 -30 "Auroran Missile Pod"
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 30
+	explode "small explosion" 50
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description "The Thunderforge is the primary heavy warship of the Auroran Empire. Its massive particle beam array can devastate enemy formations, while its storm chainguns provide devastating close-range firepower. This ship embodies the Auroran belief that overwhelming force is the path to victory."
+
+ship "Auroran Abomination"
+	sprite "ship/auroran_abomination"
+	thumbnail "thumbnail/auroran_abomination"
+	attributes
+		category "Heavy Warship"
+		"cost" 4200000
+		"shields" 12000
+		"hull" 6000
+		"required crew" 35
+		"bunks" 50
+		"mass" 850
+		"drag" 16.5
+		"heat dissipation" .50
+		"fuel capacity" 800
+		"cargo space" 180
+		"outfit space" 1200
+		"weapon capacity" 420
+		"engine capacity" 280
+		weapon
+			"blast radius" 150
+			"shield damage" 4200
+			"hull damage" 2100
+			"hit force" 6300
+	outfits
+		"Auroran Particle Beam" 6
+		"Auroran Storm Chaingun" 4
+		"Auroran Missile" 80
+		"Auroran Missile Pod" 4
+		"Fighter Bay"
+		"Auroran Firebird"
+		"Auroran Shield Matrix" 8
+		"Auroran Fusion Core" 2
+		"Auroran Ion Drive"
+		"Auroran Steering System"
+		"Hyperdrive"
+	engine -35 85
+	engine 35 85
+	gun -25 -50 "Auroran Particle Beam"
+	gun 25 -50 "Auroran Particle Beam"
+	gun -20 -55 "Auroran Particle Beam"
+	gun 20 -55 "Auroran Particle Beam"
+	gun -15 -60 "Auroran Particle Beam"
+	gun 15 -60 "Auroran Particle Beam"
+	gun -30 -35 "Auroran Storm Chaingun"
+	gun 30 -35 "Auroran Storm Chaingun"
+	gun -25 -40 "Auroran Storm Chaingun"
+	gun 25 -40 "Auroran Storm Chaingun"
+	gun -12 -45 "Auroran Missile Pod"
+	gun 12 -45 "Auroran Missile Pod"
+	gun -8 -48 "Auroran Missile Pod"
+	gun 8 -48 "Auroran Missile Pod"
+	bay "Fighter" 0 30
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 50
+	explode "small explosion" 80
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 25
+	"final explode" "final explosion huge"
+	description "The Abomination is the ultimate expression of Auroran military might. This massive warship carries enough firepower to level entire fleets, and its fighter bay allows it to project force across vast distances. Only the most honored warriors are permitted to command such a vessel."
+
+ship "Auroran Carrier"
+	sprite "ship/auroran_carrier"
+	thumbnail "thumbnail/auroran_carrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 3800000
+		"shields" 9600
+		"hull" 4800
+		"required crew" 42
+		"bunks" 80
+		"mass" 750
+		"drag" 14.2
+		"heat dissipation" .55
+		"fuel capacity" 750
+		"cargo space" 220
+		"outfit space" 980
+		"weapon capacity" 320
+		"engine capacity" 240
+		weapon
+			"blast radius" 135
+			"shield damage" 3800
+			"hull damage" 1900
+			"hit force" 5700
+	outfits
+		"Auroran Particle Turret" 4
+		"Auroran Storm Chaingun" 2
+		"Fighter Bay" 3
+		"Auroran Firebird" 2
+		"Auroran Phoenix"
+		"Auroran Shield Matrix" 6
+		"Auroran Fusion Core" 2
+		"Auroran Ion Drive"
+		"Auroran Steering System"
+		"Hyperdrive"
+	engine -32 75
+	engine 32 75
+	gun -28 -30 "Auroran Storm Chaingun"
+	gun 28 -30 "Auroran Storm Chaingun"
+	turret -20 -20 "Auroran Particle Turret"
+	turret 20 -20 "Auroran Particle Turret"
+	turret -25 15 "Auroran Particle Turret"
+	turret 25 15 "Auroran Particle Turret"
+	bay "Fighter" -35 25
+	bay "Fighter" 35 25
+	bay "Fighter" 0 40
+	leak "leak" 35 50
+	leak "flame" 45 80
+	leak "big leak" 65 30
+	explode "tiny explosion" 45
+	explode "small explosion" 75
+	explode "medium explosion" 65
+	explode "large explosion" 45
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
+	description "The Auroran Carrier combines the Empire's love of direct combat with the practical need for fighter support. Unlike Federation carriers, Auroran carriers are heavily armed and expected to fight alongside their fighters rather than hanging back. This philosophy makes them formidable opponents in any engagement."

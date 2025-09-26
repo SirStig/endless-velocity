@@ -1,0 +1,247 @@
+# Federation Ships - EV Nova Module
+# Based on ships from Escape Velocity Nova
+
+ship "Federation Viper"
+	sprite "ship/federation_viper"
+	thumbnail "thumbnail/federation_viper"
+	attributes
+		category "Fighter"
+		"cost" 150000
+		"shields" 800
+		"hull" 400
+		"required crew" 1
+		"bunks" 2
+		"mass" 45
+		"drag" 1.2
+		"heat dissipation" .85
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 140
+		"weapon capacity" 25
+		"engine capacity" 40
+		weapon
+			"blast radius" 20
+			"shield damage" 200
+			"hull damage" 100
+			"hit force" 300
+	outfits
+		"IR Pulse Laser" 2
+		"Afterburner"
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -9 30
+	engine 9 30
+	gun -7 -10 "IR Pulse Laser"
+	gun 7 -10 "IR Pulse Laser"
+	leak "leak" 60 50
+	leak "flame" 80 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	"final explode" "final explosion small"
+	description "The Federation Viper is the backbone of the Federation Navy's fighter squadrons. Fast, maneuverable, and well-armed for its size, the Viper serves as both an interceptor and escort fighter. Its twin pulse lasers and afterburner make it a formidable opponent in skilled hands."
+
+ship "Federation Anaconda"
+	sprite "ship/federation_anaconda"
+	thumbnail "thumbnail/federation_anaconda"
+	attributes
+		category "Light Warship"
+		"cost" 450000
+		"shields" 1800
+		"hull" 900
+		"required crew" 4
+		"bunks" 8
+		"mass" 120
+		"drag" 2.8
+		"heat dissipation" .75
+		"fuel capacity" 400
+		"cargo space" 45
+		"outfit space" 280
+		"weapon capacity" 85
+		"engine capacity" 75
+		weapon
+			"blast radius" 35
+			"shield damage" 450
+			"hull damage" 225
+			"hit force" 675
+	outfits
+		"IR Pulse Laser" 4
+		"Hellhound Missile" 20
+		"Hellhound Missile Launcher"
+		"D23-QP Shield Generator"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -12 45
+	engine 12 45
+	gun -8 -25 "IR Pulse Laser"
+	gun 8 -25 "IR Pulse Laser"
+	gun -15 -10 "IR Pulse Laser"
+	gun 15 -10 "IR Pulse Laser"
+	gun 0 -30 "Hellhound Missile Launcher"
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 15
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "The Federation Anaconda serves as a medium fighter and patrol vessel. Armed with multiple pulse lasers and a missile launcher, it bridges the gap between light fighters and heavy warships. The Anaconda is commonly used for system patrol duties and as a heavy escort for merchant convoys."
+
+ship "Federation Destroyer"
+	sprite "ship/federation_destroyer"
+	thumbnail "thumbnail/federation_destroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 1200000
+		"shields" 4200
+		"hull" 2100
+		"required crew" 18
+		"bunks" 25
+		"mass" 320
+		"drag" 5.8
+		"heat dissipation" .65
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 520
+		"weapon capacity" 180
+		"engine capacity" 140
+		weapon
+			"blast radius" 80
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"IR Pulse Laser" 6
+		"Hellhound Missile" 40
+		"Hellhound Missile Launcher" 2
+		"Gravitic Ramscoop"
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine -22 65
+	engine 22 65
+	gun -15 -35 "IR Pulse Laser"
+	gun 15 -35 "IR Pulse Laser"
+	gun -12 -38 "IR Pulse Laser"
+	gun 12 -38 "IR Pulse Laser"
+	gun -8 -40 "IR Pulse Laser"
+	gun 8 -40 "IR Pulse Laser"
+	gun -25 -20 "Hellhound Missile Launcher"
+	gun 25 -20 "Hellhound Missile Launcher"
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 25
+	explode "small explosion" 45
+	explode "medium explosion" 35
+	explode "large explosion" 15
+	"final explode" "final explosion large"
+	description "The Federation Destroyer is the backbone of the Federation Navy's heavy fleet. Armed with multiple pulse laser turrets and missile launchers, it can engage multiple targets simultaneously. Its heavy armor and shields make it capable of standing toe-to-toe with any enemy warship."
+
+ship "Federation Carrier"
+	sprite "ship/federation_carrier"
+	thumbnail "thumbnail/federation_carrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 2800000
+		"shields" 8400
+		"hull" 4200
+		"required crew" 45
+		"bunks" 60
+		"mass" 680
+		"drag" 12.5
+		"heat dissipation" .55
+		"fuel capacity" 600
+		"cargo space" 150
+		"outfit space" 840
+		"weapon capacity" 280
+		"engine capacity" 200
+		weapon
+			"blast radius" 120
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+		"IR Pulse Turret" 4
+		"Hellhound Missile" 80
+		"Hellhound Missile Launcher" 4
+		"Fighter Bay" 2
+		"Federation Viper" 2
+		"Gravitic Ramscoop"
+		"D94-YV Shield Generator"
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	engine -35 85
+	engine 35 85
+	gun -30 -45 "Hellhound Missile Launcher"
+	gun 30 -45 "Hellhound Missile Launcher"
+	gun -20 -50 "Hellhound Missile Launcher"
+	gun 20 -50 "Hellhound Missile Launcher"
+	turret -25 -25 "IR Pulse Turret"
+	turret 25 -25 "IR Pulse Turret"
+	turret -15 10 "IR Pulse Turret"
+	turret 15 10 "IR Pulse Turret"
+	bay "Fighter" -40 20
+	bay "Fighter" 40 20
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 50 30
+	explode "tiny explosion" 35
+	explode "small explosion" 65
+	explode "medium explosion" 55
+	explode "large explosion" 35
+	explode "huge explosion" 15
+	"final explode" "final explosion huge"
+	description "The Federation Carrier is the pride of the Federation fleet. This massive vessel carries multiple fighter squadrons while mounting heavy defensive armaments. Its fighter bays can launch coordinated strikes while the ship's own weapons provide covering fire."
+
+ship "Federation Patrol Boat"
+	sprite "ship/federation_patrol"
+	thumbnail "thumbnail/federation_patrol"
+	attributes
+		category "Interceptor"
+		"cost" 85000
+		"shields" 400
+		"hull" 200
+		"required crew" 1
+		"bunks" 2
+		"mass" 25
+		"drag" 0.9
+		"heat dissipation" .95
+		"fuel capacity" 200
+		"cargo space" 8
+		"outfit space" 90
+		"weapon capacity" 15
+		"engine capacity" 25
+		weapon
+			"blast radius" 12
+			"shield damage" 85
+			"hull damage" 42
+			"hit force" 127
+	outfits
+		"IR Pulse Laser"
+		"D14-RN Shield Generator"
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -4 15
+	engine 4 15
+	gun 0 -8 "IR Pulse Laser"
+	leak "leak" 90 50
+	explode "tiny explosion" 8
+	explode "small explosion" 5
+	"final explode" "final explosion tiny"
+	description "The Federation Patrol Boat is a small, fast vessel used for system patrol and customs enforcement. While lightly armed and armored, its speed and maneuverability make it effective for intercepting smugglers and maintaining order in Federation space."

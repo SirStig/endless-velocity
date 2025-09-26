@@ -1,0 +1,89 @@
+# Arpian Ships - Arpia2 Module
+# Based on ships from the Arpia 2 plugin
+
+ship "Arpian Scout"
+	sprite "ship/arpian_scout"
+	thumbnail "thumbnail/arpian_scout"
+	attributes
+		category "Light Warship"
+		"cost" 280000
+		"shields" 1200
+		"hull" 600
+		"required crew" 2
+		"bunks" 4
+		"mass" 65
+		"drag" 1.8
+		"heat dissipation" .90
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 180
+		"weapon capacity" 45
+		"engine capacity" 55
+		weapon
+			"blast radius" 25
+			"shield damage" 280
+			"hull damage" 140
+			"hit force" 420
+	outfits
+		"Arpian Pulse Beam" 2
+		"Arpian Energy Cell"
+		"Arpian Shield Matrix"
+		"Arpian Ion Drive"
+		"Arpian Steering System"
+		"Hyperdrive"
+	engine -8 25
+	engine 8 25
+	gun -5 -15 "Arpian Pulse Beam"
+	gun 5 -15 "Arpian Pulse Beam"
+	leak "leak" 60 50
+	leak "flame" 80 80
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	"final explode" "final explosion small"
+	description "The Arpian Scout represents the pinnacle of Arpian exploration technology. Built for long-range reconnaissance and first contact missions, these vessels combine advanced sensors with moderate defensive capabilities. Their organic-hybrid technology allows for efficient operation in deep space conditions."
+
+ship "Arpian Defender"
+	sprite "ship/arpian_defender"
+	thumbnail "thumbnail/arpian_defender"
+	attributes
+		category "Medium Warship"
+		"cost" 650000
+		"shields" 2400
+		"hull" 1200
+		"required crew" 6
+		"bunks" 12
+		"mass" 180
+		"drag" 3.5
+		"heat dissipation" .80
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 350
+		"weapon capacity" 120
+		"engine capacity" 90
+		weapon
+			"blast radius" 45
+			"shield damage" 650
+			"hull damage" 325
+			"hit force" 975
+	outfits
+		"Arpian Pulse Beam" 3
+		"Arpian Plasma Cannon"
+		"Arpian Energy Cell" 2
+		"Arpian Shield Matrix" 2
+		"Arpian Ion Drive"
+		"Arpian Steering System"
+		"Hyperdrive"
+	engine -15 40
+	engine 15 40
+	gun -10 -20 "Arpian Pulse Beam"
+	gun 10 -20 "Arpian Pulse Beam"
+	gun -6 -25 "Arpian Pulse Beam"
+	gun 0 -30 "Arpian Plasma Cannon"
+	leak "leak" 40 50
+	leak "flame" 60 80
+	leak "big leak" 85 30
+	explode "tiny explosion" 18
+	explode "small explosion" 30
+	explode "medium explosion" 12
+	"final explode" "final explosion medium"
+	description "The Arpian Defender serves as the primary patrol and defense vessel for Arpian space. Equipped with advanced beam weapons and plasma cannons, it can hold its own against most threats. The Defender's hybrid organic-mechanical systems provide excellent reliability and self-repair capabilities during extended missions."

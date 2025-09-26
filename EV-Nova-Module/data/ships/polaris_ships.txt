@@ -1,0 +1,147 @@
+# Polaris Ships - EV Nova Module
+# Advanced alien vessels with organic technology
+
+ship "Polaris Manta"
+	sprite "ship/polaris_manta"
+	thumbnail "thumbnail/polaris_manta"
+	attributes
+		category "Fighter"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 1400
+		"hull" 700
+		"required crew" 1
+		"bunks" 2
+		"mass" 55
+		"drag" 1.6
+		"heat dissipation" 1.1
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 160
+		"weapon capacity" 45
+		"engine capacity" 50
+		weapon
+			"blast radius" 28
+			"shield damage" 280
+			"hull damage" 140
+			"hit force" 420
+	outfits
+		"Polaris Bio-Beam"
+		"Polaris Organic Shield"
+		"Polaris Bio-Core"
+		"Polaris Organic Thruster"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine -8 25
+	engine 8 25
+	gun 0 -15 "Polaris Bio-Beam"
+	leak "leak" 80 50
+	leak "flame" 90 80
+	explode "tiny explosion" 15
+	explode "small explosion" 20
+	"final explode" "final explosion small"
+	description "The Polaris Manta is a graceful fighter that embodies the alien aesthetic of organic technology. Its bio-beam weapon and living hull make it unlike any human-built vessel. The ship seems to flow through space with an almost supernatural grace."
+
+ship "Polaris Scarab"
+	sprite "ship/polaris_scarab"
+	thumbnail "thumbnail/polaris_scarab"
+	attributes
+		category "Medium Warship"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 4800
+		"hull" 2400
+		"required crew" 8
+		"bunks" 12
+		"mass" 280
+		"drag" 5.2
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 60
+		"outfit space" 480
+		"weapon capacity" 180
+		"engine capacity" 120
+		weapon
+			"blast radius" 75
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Polaris Bio-Beam" 3
+		"Polaris Bio-Torpedo" 20
+		"Polaris Bio-Torpedo Launcher"
+		"Fighter Bay"
+		"Polaris Manta"
+		"Polaris Organic Shield" 3
+		"Polaris Bio-Core" 2
+		"Polaris Organic Drive"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine -18 45
+	engine 18 45
+	gun -12 -25 "Polaris Bio-Beam"
+	gun 12 -25 "Polaris Bio-Beam"
+	gun 0 -30 "Polaris Bio-Beam"
+	gun -6 -28 "Polaris Bio-Torpedo Launcher"
+	bay "Fighter" 0 20
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 25
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion large"
+	description "The Scarab is a nimble battlecarrier that combines fighter support with devastating direct firepower. Its organic weapons and ability to carry a Manta fighter make it a versatile and dangerous opponent."
+
+ship "Polaris Raven"
+	sprite "ship/polaris_raven"
+	thumbnail "thumbnail/polaris_raven"
+	attributes
+		category "Heavy Warship"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 18000
+		"hull" 9000
+		"required crew" 20
+		"bunks" 30
+		"mass" 950
+		"drag" 18.5
+		"heat dissipation" 0.7
+		"fuel capacity" 800
+		"cargo space" 200
+		"outfit space" 1400
+		"weapon capacity" 500
+		"engine capacity" 300
+		weapon
+			"blast radius" 200
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 9000
+	outfits
+		"Polaris Multi-Beam" 2
+		"Polaris Bio-Torpedo" 60
+		"Polaris Bio-Torpedo Launcher" 3
+		"Fighter Bay" 2
+		"Polaris Manta" 2
+		"Polaris Organic Shield" 8
+		"Polaris Bio-Core" 4
+		"Polaris Organic Drive"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine -35 85
+	engine 35 85
+	gun -25 -60 "Polaris Multi-Beam"
+	gun 25 -60 "Polaris Multi-Beam"
+	gun -15 -45 "Polaris Bio-Torpedo Launcher"
+	gun 15 -45 "Polaris Bio-Torpedo Launcher"
+	gun 0 -50 "Polaris Bio-Torpedo Launcher"
+	bay "Fighter" -30 30
+	bay "Fighter" 30 30
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 60
+	explode "small explosion" 100
+	explode "medium explosion" 80
+	explode "large explosion" 60
+	explode "huge explosion" 30
+	"final explode" "final explosion huge"
+	description "The Raven is the ultimate expression of Polaris military might. This titanic warship carries earth-shattering weaponry that can devastate entire fleets. Its organic nature makes it seem more like a living creature than a constructed vessel."

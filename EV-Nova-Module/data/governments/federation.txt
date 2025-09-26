@@ -1,0 +1,52 @@
+# Federation Government - EV Nova Module
+# Based on the Federation from Escape Velocity Nova
+
+government "Federation"
+	"display name" "Federation"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" 0.3
+		"Pirate" -1.0
+		"Rebel" -0.8
+		"Auroran" -0.5
+		"Polaris" 0.1
+	"penalty for"
+		"attacking innocent" 0.5
+		"attacking civilian" 0.3
+		"attacking disabled" 0.2
+		"boarding ship" 0.1
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.06 0.68 0.78
+	"friendly hail" "friendly federation"
+	"hostile hail" "hostile federation"
+	"language" "Federation"
+	"raid" "Small Federation"
+	
+phrase "friendly federation"
+	word
+		"Greetings, "
+		"Hello, "
+		"Welcome, "
+	word
+		"Captain. "
+		"pilot. "
+		"citizen. "
+	word
+		"Safe travels in Federation space."
+		"The Federation ensures safe passage here."
+		"May your journey be prosperous."
+
+phrase "hostile federation"
+	word
+		"Hostile vessel, "
+		"Enemy ship, "
+		"Criminal, "
+	word
+		"you are "
+		"prepare to be "
+		"you will be "
+	word
+		"destroyed!"
+		"eliminated!"
+		"brought to justice!"

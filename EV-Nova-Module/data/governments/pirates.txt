@@ -1,0 +1,102 @@
+# Pirate Governments - EV Nova Module
+# Various criminal organizations and raiders
+
+government "Pirate"
+	"display name" "Pirates"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" -0.3
+		"Federation" -1.0
+		"Auroran Empire" -0.5
+		"Polaris" -0.8
+		"Rebel" -0.2
+		"Vell-os" -0.6
+	"penalty for"
+		"attacking innocent" -0.1
+		"attacking civilian" -0.05
+		"attacking disabled" 0.1
+		"boarding ship" -0.1
+		"assisting wanted" -0.2
+		"scanning cargo" 0
+	"color" 0.8 0.1 0.1
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	"language" "Pirate"
+	"raid" "Large Pirate"
+
+government "Marauder"
+	"display name" "Marauders"
+	"player reputation" 0
+	"attitude toward"
+		"Pirate" 0.3
+		"Merchant" -0.5
+		"Federation" -1.0
+		"Auroran Empire" -0.3
+	"penalty for"
+		"attacking innocent" -0.2
+		"attacking civilian" -0.1
+		"attacking disabled" 0.05
+		"boarding ship" -0.2
+		"assisting wanted" -0.3
+		"scanning cargo" 0
+	"color" 0.7 0.2 0.1
+	"friendly hail" "friendly marauder"
+	"hostile hail" "hostile marauder"
+	"language" "Pirate"
+	"raid" "Large Marauder"
+
+phrase "friendly pirate"
+	word
+		"Well, well... "
+		"Look what we have here... "
+		"Ahoy there, "
+	word
+		"fellow outlaw. "
+		"space rat. "
+		"scoundrel. "
+	word
+		"Got any cargo worth taking?"
+		"Stay out of our territory."
+		"Keep your weapons holstered."
+
+phrase "hostile pirate"
+	word
+		"Prepare to be boarded, "
+		"Time to die, "
+		"You've made a mistake, "
+	word
+		"fool! "
+		"scum! "
+		"weakling! "
+	word
+		"Your cargo is ours!"
+		"We'll strip your ship bare!"
+		"Should have paid the toll!"
+
+phrase "friendly marauder"
+	word
+		"Marauder vessel here. "
+		"Raiders acknowledge you. "
+		"Fellow predator, "
+	word
+		"Keep moving. "
+		"This is our hunting ground. "
+		"Don't interfere with our business. "
+	word
+		"The void belongs to the strong."
+		"Weakness invites destruction."
+		"Survival of the fittest."
+
+phrase "hostile marauder"
+	word
+		"Target acquired! "
+		"Fresh prey! "
+		"Time to hunt! "
+	word
+		"Marauders attack! "
+		"No mercy! "
+		"Take everything! "
+	word
+		"Your death feeds our strength!"
+		"The strong survive, the weak perish!"
+		"Welcome to the food chain!"

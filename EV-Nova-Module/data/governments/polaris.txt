@@ -1,0 +1,53 @@
+# Polaris Government - EV Nova Module
+# The advanced alien civilization with organic technology
+
+government "Polaris"
+	"display name" "Polaris"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" 0.2
+		"Federation" 0.1
+		"Auroran Empire" 0.2
+		"Pirate" -0.8
+		"Rebel" 0.1
+		"Vell-os" 0.8
+	"penalty for"
+		"attacking innocent" 0.6
+		"attacking civilian" 0.4
+		"attacking disabled" 0.8
+		"boarding ship" 0.3
+		"assisting wanted" 0.2
+		"scanning cargo" 0
+	"color" 0.3 0.9 0.7
+	"friendly hail" "friendly polaris"
+	"hostile hail" "hostile polaris"
+	"language" "Polaris"
+	"raid" "Small Polaris"
+
+phrase "friendly polaris"
+	word
+		"*Harmonious thoughts reach out* "
+		"*The collective acknowledges you* "
+		"*Peaceful minds touch yours* "
+	word
+		"Greetings, young species. "
+		"Welcome, carbon-based one. "
+		"Peace to you, small traveler. "
+	word
+		"May your path lead to enlightenment."
+		"The universe flows through all things."
+		"Harmony guides our interactions."
+
+phrase "hostile polaris"
+	word
+		"*Disappointed thoughts emanate* "
+		"*The collective expresses regret* "
+		"*Sorrowful minds reach out* "
+	word
+		"You have chosen violence. "
+		"Your actions disturb the harmony. "
+		"This path leads only to suffering. "
+	word
+		"We must restore the balance."
+		"The collective will not permit chaos."
+		"Peace must be maintained."

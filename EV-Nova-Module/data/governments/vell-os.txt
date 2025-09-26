@@ -1,0 +1,128 @@
+# Vell-os Government - EV Nova Module
+# The mysterious Vell-os with their living ship technology
+
+government "Vell-os"
+	"display name" "Vell-os"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" 0.1
+		"Federation" -0.3
+		"Auroran" 0.2
+		"Polaris" 0.4
+		"Pirate" -0.5
+		"Rebel" 0.1
+	"penalty for"
+		"attacking innocent" 0.8
+		"attacking civilian" 0.6
+		"attacking disabled" 0.4
+		"boarding ship" 0.2
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.9 0.3 0.9
+	"friendly hail" "friendly vell-os"
+	"hostile hail" "hostile vell-os"
+	"language" "Vell-os"
+	"raid" "Small Vell-os"
+
+phrase "friendly vell-os"
+	word
+		"*The ship's thoughts touch yours* "
+		"*A mental presence acknowledges you* "
+		"*Living thoughts reach out* "
+	word
+		"Greetings, flesh-bound one. "
+		"Peace, small traveler. "
+		"We sense no malice in you. "
+	word
+		"The void is vast but not empty."
+		"May your journey find purpose."
+		"The stars remember all paths."
+
+phrase "hostile vell-os"
+	word
+		"*Angry thoughts pierce your mind* "
+		"*The ship's rage is palpable* "
+		"*Mental fury overwhelms you* "
+	word
+		"You have brought pain! "
+		"Your actions echo in the void! "
+		"Violence begets violence! "
+	word
+		"Face the consequence of your choices!"
+		"The living ships remember your cruelty!"
+		"We will not suffer your presence!"
+
+# Vell-os Castes - Different stages of Vell-os development
+government "Vell-os T0"
+	"display name" "Vell-os Outcast"
+	"player reputation" 0
+	"attitude toward"
+		"Vell-os" -0.8
+		"Federation" -0.9
+		"Merchant" -0.2
+	"color" 0.6 0.2 0.6
+	"friendly hail" "friendly vell-os outcast"
+	"hostile hail" "hostile vell-os outcast"
+
+government "Vell-os T1"
+	"display name" "Vell-os Seeker"
+	"player reputation" 0
+	"attitude toward"
+		"Vell-os" 0.8
+		"Vell-os T0" 0.3
+		"Federation" -0.5
+	"color" 0.7 0.25 0.7
+	"friendly hail" "friendly vell-os"
+	"hostile hail" "hostile vell-os"
+
+government "Vell-os T2"
+	"display name" "Vell-os Adept"
+	"player reputation" 0
+	"attitude toward"
+		"Vell-os" 0.9
+		"Vell-os T1" 0.8
+		"Federation" -0.3
+		"Polaris" 0.5
+	"color" 0.8 0.3 0.8
+	"friendly hail" "friendly vell-os"
+	"hostile hail" "hostile vell-os"
+
+government "Vell-os T3"
+	"display name" "Vell-os Master"
+	"player reputation" 0
+	"attitude toward"
+		"Vell-os" 1.0
+		"Vell-os T2" 0.9
+		"Polaris" 0.7
+		"Federation" 0.1
+	"color" 0.9 0.35 0.9
+	"friendly hail" "friendly vell-os"
+	"hostile hail" "hostile vell-os"
+
+phrase "friendly vell-os outcast"
+	word
+		"*Broken thoughts whisper* "
+		"*A damaged mind reaches out* "
+		"*Fractured consciousness speaks* "
+	word
+		"I am... lost. "
+		"The connection is severed. "
+		"They cast me out. "
+	word
+		"Do not trust the Federation's lies."
+		"The truth is hidden in pain."
+		"Freedom comes at a terrible price."
+
+phrase "hostile vell-os outcast"
+	word
+		"*Tortured thoughts scream* "
+		"*Anguished mental cries* "
+		"*Broken rage lashes out* "
+	word
+		"You serve the oppressors! "
+		"They broke us! Used us! "
+		"No more! No more! "
+	word
+		"I will not be enslaved again!"
+		"Death before chains!"
+		"You cannot understand our pain!"

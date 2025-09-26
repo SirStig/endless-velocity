@@ -1,0 +1,67 @@
+# Federation Fleets - EV Nova Module
+# Fleet compositions for the Federation Navy
+
+fleet "Small Federation"
+	government "Federation"
+	names "federation"
+	fighters "federation fighter"
+	cargo 3
+	personality
+		disables opportunistic plunders
+		heroic vindictive
+	variant 2
+		"Federation Viper"
+	variant 1
+		"Federation Viper" 2
+	variant 1
+		"Federation Patrol Boat"
+		"Federation Viper"
+
+fleet "Large Federation"
+	government "Federation"
+	names "federation"
+	fighters "federation fighter"
+	cargo 4
+	personality
+		disables opportunistic plunders
+		heroic vindictive
+	variant 2
+		"Federation Anaconda"
+		"Federation Viper" 2
+	variant 1
+		"Federation Destroyer"
+		"Federation Viper" 3
+	variant 1
+		"Federation Destroyer"
+		"Federation Anaconda" 2
+
+fleet "Federation Patrol"
+	government "Federation"
+	names "federation"
+	cargo 2
+	personality
+		disables opportunistic plunders
+		heroic vindictive
+	variant 3
+		"Federation Patrol Boat"
+	variant 2
+		"Federation Patrol Boat" 2
+	variant 1
+		"Federation Viper"
+		"Federation Patrol Boat"
+
+fleet "Federation Battle Group"
+	government "Federation"
+	names "federation"
+	fighters "federation fighter"
+	cargo 5
+	personality
+		disables opportunistic plunders
+		heroic vindictive
+	variant 1
+		"Federation Carrier"
+		"Federation Destroyer" 2
+		"Federation Anaconda" 4
+	variant 1
+		"Federation Destroyer" 3
+		"Federation Anaconda" 6

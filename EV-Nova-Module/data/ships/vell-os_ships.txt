@@ -1,0 +1,187 @@
+# Vell-os Ships - EV Nova Module
+# Living ships that grow and evolve with the pilot
+
+ship "Vell-os Dart"
+	sprite "ship/vell-os_dart"
+	thumbnail "thumbnail/vell-os_dart"
+	attributes
+		category "Fighter"
+		"cost" 0  # Cannot be purchased
+		"shields" 600
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 35
+		"drag" 0.8
+		"heat dissipation" 1.2
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 25
+		"self destruct" .8
+		weapon
+			"blast radius" 15
+			"shield damage" 150
+			"hull damage" 75
+			"hit force" 225
+	outfits
+		"Vell-os Spine" 2
+		"Vell-os Regeneration"
+		"Vell-os Thoughts"
+	engine -5 20
+	engine 5 20
+	gun -3 -12 "Vell-os Spine"
+	gun 3 -12 "Vell-os Spine"
+	leak "leak" 80 50
+	leak "flame" 90 80
+	explode "tiny explosion" 8
+	explode "small explosion" 12
+	"final explode" "final explosion small"
+	description "The Vell-os Dart is the first form of living ship that a Vell-os pilot bonds with. Though small and seemingly fragile, it possesses remarkable regenerative abilities and grows stronger through the mental link with its pilot. The ship's organic nature makes it unlike any human-built vessel."
+
+ship "Vell-os Arrow"
+	sprite "ship/vell-os_arrow"
+	thumbnail "thumbnail/vell-os_arrow"
+	attributes
+		category "Light Warship"
+		"cost" 0  # Cannot be purchased
+		"shields" 1200
+		"hull" 2000
+		"required crew" 1
+		"bunks" 2
+		"mass" 65
+		"drag" 1.2
+		"heat dissipation" 1.1
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 140
+		"weapon capacity" 60
+		"engine capacity" 45
+		"self destruct" .8
+		weapon
+			"blast radius" 25
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Vell-os Spine" 4
+		"Vell-os Javelin"
+		"Vell-os Regeneration" 2
+		"Vell-os Thoughts"
+	engine -8 25
+	engine 8 25
+	gun -5 -15 "Vell-os Spine"
+	gun 5 -15 "Vell-os Spine"
+	gun -3 -18 "Vell-os Spine"
+	gun 3 -18 "Vell-os Spine"
+	gun 0 -20 "Vell-os Javelin"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	explode "medium explosion" 8
+	"final explode" "final explosion medium"
+	description "The Arrow represents the second stage of Vell-os ship evolution. Larger and more powerful than the Dart, it maintains the organic regeneration while adding more sophisticated weapons systems. The mental bond between ship and pilot has deepened, allowing for more intuitive control."
+
+ship "Vell-os Javelin"
+	sprite "ship/vell-os_javelin"
+	thumbnail "thumbnail/vell-os_javelin"
+	attributes
+		category "Medium Warship"
+		"cost" 0  # Cannot be purchased
+		"shields" 2400
+		"hull" 3200
+		"required crew" 1
+		"bunks" 3
+		"mass" 120
+		"drag" 2.0
+		"heat dissipation" 1.0
+		"fuel capacity" 600
+		"cargo space" 35
+		"outfit space" 220
+		"weapon capacity" 100
+		"engine capacity" 70
+		"self destruct" .8
+		weapon
+			"blast radius" 40
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Vell-os Spine" 6
+		"Vell-os Javelin" 2
+		"Vell-os Regeneration" 3
+		"Vell-os Thoughts" 2
+	engine -12 35
+	engine 12 35
+	gun -8 -20 "Vell-os Spine"
+	gun 8 -20 "Vell-os Spine"
+	gun -6 -22 "Vell-os Spine"
+	gun 6 -22 "Vell-os Spine"
+	gun -4 -24 "Vell-os Spine"
+	gun 4 -24 "Vell-os Spine"
+	gun -2 -26 "Vell-os Javelin"
+	gun 2 -26 "Vell-os Javelin"
+	leak "leak" 60 50
+	leak "flame" 70 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 15
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "The Javelin is a formidable medium warship that showcases the true potential of Vell-os biotechnology. Its multiple spine projectors and enhanced regeneration make it a match for most human warships. The ship responds to its pilot's thoughts with uncanny precision."
+
+ship "Vell-os Dagger"
+	sprite "ship/vell-os_dagger"
+	thumbnail "thumbnail/vell-os_dagger"
+	attributes
+		category "Heavy Warship"
+		"cost" 0  # Cannot be purchased
+		"shields" 4800
+		"hull" 6400
+		"required crew" 1
+		"bunks" 4
+		"mass" 250
+		"drag" 3.5
+		"heat dissipation" 0.9
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 380
+		"weapon capacity" 180
+		"engine capacity" 120
+		"self destruct" .8
+		weapon
+			"blast radius" 60
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Vell-os Spine" 8
+		"Vell-os Javelin" 3
+		"Vell-os Spike"
+		"Vell-os Regeneration" 5
+		"Vell-os Thoughts" 3
+	engine -18 50
+	engine 18 50
+	gun -12 -30 "Vell-os Spine"
+	gun 12 -30 "Vell-os Spine"
+	gun -10 -32 "Vell-os Spine"
+	gun 10 -32 "Vell-os Spine"
+	gun -8 -34 "Vell-os Spine"
+	gun 8 -34 "Vell-os Spine"
+	gun -6 -36 "Vell-os Spine"
+	gun 6 -36 "Vell-os Spine"
+	gun -4 -38 "Vell-os Javelin"
+	gun 4 -38 "Vell-os Javelin"
+	gun -2 -40 "Vell-os Javelin"
+	gun 0 -42 "Vell-os Spike"
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "The Dagger represents the pinnacle of Vell-os ship evolution available to most pilots. This heavy warship combines devastating firepower with the signature Vell-os regeneration. The mental bond is so complete that the ship feels like an extension of the pilot's own body."

@@ -1,0 +1,53 @@
+# Rebel Government - EV Nova Module
+# The revolutionary movement fighting Federation control
+
+government "Rebel"
+	"display name" "Rebellion"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" 0.2
+		"Federation" -1.0
+		"Auroran Empire" -0.2
+		"Polaris" 0.1
+		"Pirate" -0.1
+		"Vell-os" 0.4
+	"penalty for"
+		"attacking innocent" 0.4
+		"attacking civilian" 0.3
+		"attacking disabled" 0.2
+		"boarding ship" 0.1
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.2 0.8 0.2
+	"friendly hail" "friendly rebel"
+	"hostile hail" "hostile rebel"
+	"language" "Rebel"
+	"raid" "Small Rebel"
+
+phrase "friendly rebel"
+	word
+		"Freedom fighter, "
+		"Fellow rebel, "
+		"Citizen, "
+	word
+		"the cause needs you. "
+		"liberty calls to all. "
+		"independence is our goal. "
+	word
+		"Down with Federation tyranny!"
+		"The outer worlds will be free!"
+		"Join us in our righteous cause!"
+
+phrase "hostile rebel"
+	word
+		"Federation puppet! "
+		"Oppressor! "
+		"Enemy of freedom! "
+	word
+		"The Rebellion "
+		"Our cause "
+		"Liberty "
+	word
+		"will not be denied!"
+		"demands your destruction!"
+		"shall triumph over tyranny!"

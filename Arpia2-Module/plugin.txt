@@ -1,0 +1,17 @@
+name "Arpia2 Module"
+about "Adds content inspired by the Arpia 2 plugin for EV Nova. Features the Arpian faction with their unique ships, technology, and three parallel storylines involving galactic exploration, trade, and the protection of humanity."
+version "1.0.0"
+authors
+	"Endless Velocity Team"
+tags
+	"Arpia 2"
+	"Arpians"
+	"Ships"
+	"Storylines"
+	"Content Addition"
+dependencies
+	"game version" "0.10.3"
+	optional
+		"EV Nova Module"
+	conflicts
+		"Overhaul Module"

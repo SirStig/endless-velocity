@@ -1,0 +1,166 @@
+# Vell-os Outfits - EV Nova Module
+# Living technology that cannot be purchased or transferred
+
+outfit "Vell-os Spine"
+	category "Guns"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_spine"
+	"mass" 5
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/vell-os_spine"
+		sound "vell-os spine"
+		"hit effect" "vell-os spine impact"
+		"inaccuracy" 2
+		"velocity" 18
+		"lifetime" 30
+		"reload" 12
+		"firing energy" 8
+		"firing heat" 15
+		"shield damage" 45
+		"hull damage" 35
+		"hit force" 25
+	description "The Vell-os Spine is a living projectile weapon that grows from the ship's hull. These organic spines regenerate automatically and fire with deadly accuracy. The weapon seems to respond to the pilot's intent as much as their physical controls."
+
+outfit "Vell-os Javelin"
+	category "Guns"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_javelin"
+	"mass" 12
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/vell-os_javelin"
+		sound "vell-os javelin"
+		"hit effect" "vell-os javelin impact"
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 40
+		"reload" 20
+		"firing energy" 18
+		"firing heat" 25
+		"shield damage" 120
+		"hull damage" 90
+		"hit force" 60
+		"piercing" 0.1
+	description "The Javelin is a more advanced Vell-os weapon system, firing larger organic projectiles with greater force and accuracy. These living spears can partially pierce through shields and armor, making them effective against heavily defended targets."
+
+outfit "Vell-os Spike"
+	category "Guns"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_spike"
+	"mass" 25
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/vell-os_spike"
+		sound "vell-os spike"
+		"hit effect" "vell-os spike impact"
+		"inaccuracy" 0.5
+		"velocity" 30
+		"lifetime" 45
+		"reload" 35
+		"firing energy" 40
+		"firing heat" 45
+		"shield damage" 280
+		"hull damage" 220
+		"hit force" 150
+		"piercing" 0.2
+	description "The ultimate Vell-os projectile weapon, the Spike fires devastating organic lances that can punch through the heaviest armor. Only the most advanced Vell-os ships can grow these weapons, and they represent the pinnacle of living weapon technology."
+
+outfit "Vell-os Regeneration"
+	category "Systems"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_regeneration"
+	"mass" 8
+	"outfit space" -12
+	"hull repair rate" 0.8
+	"hull energy" 0.5
+	"energy consumption" 0.3
+	description "This organic system allows the Vell-os ship to slowly heal damage to its living hull. The regeneration draws on the ship's energy reserves and the pilot's mental focus, but can restore the vessel to full health given enough time."
+
+outfit "Vell-os Thoughts"
+	category "Systems"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_thoughts"
+	"mass" 3
+	"outfit space" -8
+	"energy capacity" 500
+	"energy generation" 1.2
+	"heat generation" -0.5
+	description "The Thoughts system represents the mental link between pilot and ship. This living interface enhances the vessel's energy systems while helping to dissipate waste heat through the pilot's consciousness. The deeper the mental bond, the more efficient the ship becomes."
+
+# Vell-os "Engines" - Living propulsion systems
+outfit "Vell-os Reflexes"
+	category "Engines"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_reflexes"
+	"mass" 15
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 18
+	"thrusting energy" 1.8
+	"thrusting heat" 2.2
+	"turn" 480
+	"turning energy" 0.8
+	"turning heat" 1.1
+	description "Vell-os ships don't use traditional engines, but instead flex and undulate their living hulls to achieve movement. The Reflexes system represents the ship's basic ability to maneuver through space using its organic propulsion."
+
+outfit "Vell-os Instincts"
+	category "Engines"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_instincts"
+	"mass" 25
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 32
+	"thrusting energy" 2.8
+	"thrusting heat" 3.5
+	"turn" 820
+	"turning energy" 1.4
+	"turning heat" 1.8
+	description "More advanced than basic Reflexes, the Instincts system allows the Vell-os ship to move with fluid grace through space. The ship anticipates the pilot's desires and begins maneuvering almost before the conscious command is given."
+
+outfit "Vell-os Senses"
+	category "Engines"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_senses"
+	"mass" 40
+	"outfit space" -55
+	"engine capacity" -55
+	"thrust" 55
+	"thrusting energy" 4.2
+	"thrusting heat" 5.0
+	"turn" 1400
+	"turning energy" 2.2
+	"turning heat" 2.8
+	"jump speed" 0.2
+	description "The most advanced Vell-os propulsion system, Senses allows the ship to move with supernatural grace and speed. The vessel seems to flow through space like a living creature, responding to gravitational currents and space-time fluctuations that human sensors cannot detect."
+
+# Special Vell-os technology
+outfit "Vell-os Mental Link"
+	category "Special"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_mental_link"
+	"mass" 0
+	"outfit space" 0
+	"scan interference" 2
+	"tactical scan power" 50
+	"asteroid scan power" 50
+	description "The Mental Link represents the psychic connection between a Vell-os pilot and their living ship. This bond allows for perfect coordination and grants enhanced sensory abilities, making the ship nearly impossible to scan while providing superior detection capabilities."
+
+outfit "Vell-os Metamorphosis"
+	category "Special"
+	cost 0  # Cannot be purchased
+	thumbnail "outfit/vell-os_metamorphosis"
+	"mass" 0
+	"outfit space" 0
+	"shield generation" 2.5
+	"shield energy" 1.5
+	"hull repair rate" 1.2
+	"hull energy" 0.8
+	description "This represents the ship's ability to undergo rapid transformation and healing. During combat, the vessel can reshape itself to better deflect attacks while simultaneously repairing damage. Only the most advanced Vell-os ships possess this capability."

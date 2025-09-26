@@ -1,0 +1,51 @@
+# Arpian Government - Arpia2 Module
+# Based on the Arpian faction from the Arpia 2 plugin
+
+government "Arpian"
+	"display name" "Arpian"
+	"player reputation" 0
+	"attitude toward"
+		"Merchant" 0.2
+		"Federation" 0.1
+		"Pirate" -0.7
+		"Human" 0.3
+	"penalty for"
+		"attacking innocent" 0.3
+		"attacking civilian" 0.2
+		"attacking disabled" 0.1
+		"boarding ship" 0.05
+		"assisting wanted" 0.1
+		"scanning cargo" 0
+	"color" 0.8 0.4 0.9
+	"friendly hail" "friendly arpian"
+	"hostile hail" "hostile arpian"
+	"language" "Arpian"
+	"raid" "Small Arpian"
+
+phrase "friendly arpian"
+	word
+		"Greetings, "
+		"Salutations, "
+		"Peace, "
+	word
+		"traveler. "
+		"explorer. "
+		"friend. "
+	word
+		"The stars guide your path."
+		"May Arpia watch over you."
+		"Journey well among the worlds."
+
+phrase "hostile arpian"
+	word
+		"Intruder, "
+		"Aggressor, "
+		"Enemy, "
+	word
+		"you have "
+		"your actions "
+		"you will "
+	word
+		"violated our space!"
+		"brought dishonor!"
+		"face our wrath!"

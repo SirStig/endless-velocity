@@ -1,0 +1,248 @@
+# Auroran Outfits - EV Nova Module
+# Advanced energy weapons and technology of the Auroran Empire
+
+# Weapons
+outfit "Auroran Blaster"
+	category "Guns"
+	cost 35000
+	thumbnail "outfit/auroran_blaster"
+	"mass" 10
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/auroran_blaster"
+		sound "auroran blaster"
+		"hit effect" "auroran blaster impact"
+		"inaccuracy" 2
+		"velocity" 28
+		"lifetime" 20
+		"reload" 6
+		"firing energy" 18
+		"firing heat" 22
+		"shield damage" 42
+		"hull damage" 28
+		"hit force" 25
+	description "The Auroran Blaster is the standard energy weapon of the Empire. More powerful than Federation pulse lasers, these weapons embody the Auroran philosophy of overwhelming firepower. Their distinctive blue-white beam is feared throughout human space."
+
+outfit "Auroran Particle Beam"
+	category "Guns"
+	cost 180000
+	thumbnail "outfit/auroran_particle_beam"
+	"mass" 35
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	weapon
+		sprite "projectile/auroran_particle_beam"
+		sound "auroran particle beam"
+		"hit effect" "auroran particle impact"
+		"inaccuracy" 1
+		"velocity" 35
+		"lifetime" 30
+		"reload" 18
+		"firing energy" 65
+		"firing heat" 85
+		"shield damage" 180
+		"hull damage" 120
+		"hit force" 90
+		"piercing" 0.15
+	description "The Particle Beam represents advanced Auroran weapons technology. This devastating weapon fires a stream of accelerated particles that can punch through shields and armor. Only experienced pilots can handle its massive power requirements."
+
+outfit "Auroran Particle Turret"
+	category "Turrets"
+	cost 420000
+	thumbnail "outfit/auroran_particle_turret"
+	"mass" 68
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	weapon
+		sprite "projectile/auroran_particle_beam"
+		"hardpoint sprite" "hardpoint/auroran_particle_turret"
+		"hardpoint offset" 12.
+		sound "auroran particle beam"
+		"hit effect" "auroran particle impact"
+		"inaccuracy" 0.5
+		"turret turn" 1.8
+		"velocity" 35
+		"lifetime" 30
+		"reload" 15
+		"firing energy" 65
+		"firing heat" 85
+		"shield damage" 180
+		"hull damage" 120
+		"hit force" 90
+		"piercing" 0.15
+	description "The turret-mounted Particle Beam provides devastating 360-degree firepower for Auroran capital ships. Its advanced targeting systems and particle acceleration chambers make it one of the most feared weapons in space."
+
+outfit "Auroran Storm Chaingun"
+	category "Guns"
+	cost 280000
+	thumbnail "outfit/auroran_storm_chaingun"
+	"mass" 45
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	weapon
+		sprite "projectile/auroran_storm"
+		sound "auroran storm"
+		"hit effect" "auroran storm impact"
+		"inaccuracy" 8
+		"velocity" 18
+		"lifetime" 25
+		"reload" 3
+		"firing energy" 12
+		"firing heat" 18
+		"shield damage" 35
+		"hull damage" 25
+		"hit force" 15
+		"submunitions" "auroran storm fragment" 3
+	description "The Storm Chaingun fires rapid bursts of energy that fragment on impact, creating a devastating area effect. This weapon is particularly effective against fighter formations and lightly armored vessels."
+
+outfit "Auroran Missile"
+	category "Ammunition"
+	cost 2800
+	thumbnail "outfit/auroran_missile"
+	"mass" 0.4
+	"auroran missile capacity" -1
+	description "Auroran missiles are more sophisticated than their Federation counterparts, featuring advanced guidance systems and more powerful warheads. They are designed to penetrate enemy defenses and deliver maximum damage."
+
+outfit "Auroran Missile Pod"
+	category "Secondary Weapons"
+	cost 85000
+	thumbnail "outfit/auroran_missile_pod"
+	"mass" 18
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	"auroran missile capacity" 15
+	weapon
+		sprite "projectile/auroran_missile"
+		sound "auroran missile"
+		ammo "Auroran Missile"
+		icon "icon/auroran_missile"
+		"hit effect" "large explosion"
+		"die effect" "medium explosion"
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 200
+		"reload" 60
+		"firing energy" 2
+		"firing heat" 25
+		"acceleration" 1.8
+		"drag" .08
+		"turn" 4.5
+		"homing" 5
+		"tracking" .8
+		"shield damage" 320
+		"hull damage" 240
+		"hit force" 180
+		"missile strength" 25
+	description "The Auroran Missile Pod launches sophisticated guided missiles that can track and destroy enemy vessels at long range. Their advanced AI guidance systems make them extremely difficult to evade."
+
+# Shields
+outfit "Auroran Shield Matrix"
+	category "Systems"
+	cost 65000
+	thumbnail "outfit/auroran_shield_matrix"
+	"mass" 25
+	"outfit space" -35
+	"shield generation" 2.2
+	"shield energy" 2.8
+	"energy consumption" 1.8
+	description "The Auroran Shield Matrix uses advanced energy manipulation to create powerful defensive barriers. These shields can regenerate quickly between battles, allowing Auroran ships to maintain their aggressive combat style."
+
+# Power Systems
+outfit "Auroran Power Core"
+	category "Power"
+	cost 45000
+	thumbnail "outfit/auroran_power_core"
+	"mass" 28
+	"outfit space" -42
+	"energy generation" 5.2
+	"heat generation" 4.8
+	description "The Auroran Power Core uses advanced energy conversion techniques to provide steady power for the Empire's energy-hungry weapons systems. Its efficient design makes it popular among Auroran warriors."
+
+outfit "Auroran Fusion Core"
+	category "Power"
+	cost 450000
+	thumbnail "outfit/auroran_fusion_core"
+	"mass" 85
+	"outfit space" -128
+	"energy generation" 18.5
+	"heat generation" 14.2
+	description "The Fusion Core represents the pinnacle of Auroran power generation technology. Only the largest warships can accommodate its size and cooling requirements, but it provides enormous amounts of energy for the most demanding weapon systems."
+
+# Engines
+outfit "Auroran Ion Engine"
+	category "Engines"
+	cost 85000
+	thumbnail "outfit/auroran_ion_engine"
+	"mass" 35
+	"outfit space" -48
+	"engine capacity" -48
+	"thrust" 32.5
+	"thrusting energy" 3.2
+	"thrusting heat" 4.8
+	description "Auroran Ion Engines provide excellent acceleration while maintaining reasonable fuel efficiency. Their advanced ion manipulation technology makes them superior to most human propulsion systems."
+
+outfit "Auroran Ion Drive"
+	category "Engines"
+	cost 280000
+	thumbnail "outfit/auroran_ion_drive"
+	"mass" 68
+	"outfit space" -88
+	"engine capacity" -88
+	"thrust" 68.5
+	"thrusting energy" 6.8
+	"thrusting heat" 9.2
+	description "The Ion Drive is used on larger Auroran vessels that need substantial thrust. Its advanced particle acceleration chambers provide excellent performance even on heavy warships."
+
+outfit "Auroran Steering"
+	category "Engines"
+	cost 65000
+	thumbnail "outfit/auroran_steering"
+	"mass" 25
+	"outfit space" -38
+	"engine capacity" -38
+	"turn" 850
+	"turning energy" 2.2
+	"turning heat" 3.8
+	description "Auroran steering systems provide excellent maneuverability for the Empire's aggressive combat tactics. Their advanced gyroscopic stabilizers allow for precise control even during intense combat."
+
+outfit "Auroran Steering System"
+	category "Engines"
+	cost 185000
+	thumbnail "outfit/auroran_steering_system"
+	"mass" 48
+	"outfit space" -68
+	"engine capacity" -68
+	"turn" 1850
+	"turning energy" 4.8
+	"turning heat" 7.2
+	description "The advanced Steering System used on Auroran capital ships provides exceptional maneuverability for such large vessels. Its sophisticated control algorithms allow even massive warships to perform complex combat maneuvers."
+
+# Special Auroran Technology
+outfit "Auroran Regenerator"
+	category "Systems"
+	cost 180000
+	thumbnail "outfit/auroran_regenerator"
+	"mass" 35
+	"outfit space" -48
+	"shield generation" 1.8
+	"shield energy" 1.2
+	"hull repair rate" 0.5
+	"hull energy" 0.8
+	description "The Regenerator combines shield restoration with limited hull repair capabilities. This advanced system allows Auroran ships to recover from damage more quickly than their enemies, supporting their aggressive combat doctrine."
+
+outfit "Auroran Targeting Computer"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/auroran_targeting"
+	"mass" 15
+	"outfit space" -22
+	"weapon capacity" 22
+	"turret turn" 0.5
+	"tracking" 0.2
+	description "Auroran targeting computers enhance the accuracy and tracking speed of all weapon systems. Their advanced AI algorithms can predict enemy movement patterns and adjust fire accordingly."

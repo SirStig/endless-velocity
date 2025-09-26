@@ -1,0 +1,51 @@
+# Pirate Fleets - EV Nova Module
+# Fleet compositions for various pirate factions
+
+fleet "Small Pirate"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders opportunistic
+	variant 3
+		"Pirate Viper"
+	variant 2
+		"Pirate Viper" 2
+	variant 1
+		"Pirate Valkyrie"
+
+fleet "Large Pirate"
+	government "Pirate"
+	names "pirate"
+	cargo 2
+	personality
+		plunders opportunistic
+	variant 2
+		"Pirate Manticore"
+		"Pirate Viper" 3
+	variant 1
+		"Pirate Carrier"
+		"Pirate Viper" 4
+	variant 1
+		"Pirate Valkyrie" 3
+
+fleet "Small Marauder"
+	government "Marauder"
+	names "marauder"
+	cargo 1
+	personality
+		plunders opportunistic vindictive
+	variant 2
+		"Marauder Firebird"
+	variant 1
+		"Marauder Phoenix"
+
+fleet "Large Marauder"
+	government "Marauder"
+	names "marauder"
+	cargo 2
+	personality
+		plunders opportunistic vindictive
+	variant 1
+		"Marauder Thunderforge"
+		"Marauder Firebird" 2
