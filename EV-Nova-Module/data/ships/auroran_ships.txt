@@ -305,3 +305,163 @@ ship "Auroran Carrier"
 	explode "huge explosion" 20
 	"final explode" "final explosion huge"
 	description "The Auroran Carrier combines the Empire's love of direct combat with the practical need for fighter support. Unlike Federation carriers, Auroran carriers are heavily armed and expected to fight alongside their fighters rather than hanging back. This philosophy makes them formidable opponents in any engagement."
+
+ship "Auroran Argosy"
+	sprite "ship/auroran_argosy"
+	thumbnail "thumbnail/auroran_argosy"
+	attributes
+		category "Medium Freighter"
+		"cost" 450000
+		"shields" 1400
+		"hull" 2100
+		"required crew" 6
+		"bunks" 12
+		"mass" 200
+		"drag" 5.5
+		"heat dissipation" .65
+		"fuel capacity" 500
+		"cargo space" 100
+		"outfit space" 320
+		"weapon capacity" 80
+		"engine capacity" 95
+		weapon
+			"blast radius" 50
+			"shield damage" 450
+			"hull damage" 225
+			"hit force" 675
+	outfits
+		"Auroran Blaster" 3
+		"Auroran Missile" 20
+		"Auroran Missile Pod"
+		"Auroran Shield Matrix" 2
+		"Auroran Power Core"
+		"Auroran Ion Engine"
+		"Auroran Steering"
+		"Hyperdrive"
+	engine -18 40
+	engine 18 40
+	gun -10 -25 "Auroran Blaster"
+	gun 10 -25 "Auroran Blaster"
+	gun 0 -30 "Auroran Blaster"
+	gun -5 -28 "Auroran Missile Pod"
+	leak "leak" 45 50
+	leak "flame" 55 80
+	leak "big leak" 75 30
+	explode "tiny explosion" 22
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "The Auroran Argosy is a combat-capable freighter that embodies the Auroran philosophy of strength through firepower. Unlike civilian freighters, the Argosy is heavily armed and can hold its own in combat while still maintaining substantial cargo capacity."
+
+ship "Aurora Cruiser"
+	sprite "ship/aurora_cruiser"
+	thumbnail "thumbnail/aurora_cruiser"
+	attributes
+		category "Heavy Warship"
+		"cost" 3200000
+		"shields" 7200
+		"hull" 3600
+		"required crew" 28
+		"bunks" 40
+		"mass" 580
+		"drag" 11.8
+		"heat dissipation" .58
+		"fuel capacity" 700
+		"cargo space" 120
+		"outfit space" 720
+		"weapon capacity" 280
+		"engine capacity" 200
+		weapon
+			"blast radius" 110
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Auroran Particle Beam" 4
+		"Auroran Storm Chaingun" 3
+		"Auroran Missile" 60
+		"Auroran Missile Pod" 3
+		"Auroran Shield Matrix" 5
+		"Auroran Fusion Core"
+		"Auroran Ion Drive"
+		"Auroran Steering System"
+		"Hyperdrive"
+	engine -28 70
+	engine 28 70
+	gun -20 -45 "Auroran Particle Beam"
+	gun 20 -45 "Auroran Particle Beam"
+	gun -15 -50 "Auroran Particle Beam"
+	gun 15 -50 "Auroran Particle Beam"
+	gun -25 -35 "Auroran Storm Chaingun"
+	gun 25 -35 "Auroran Storm Chaingun"
+	gun 0 -40 "Auroran Storm Chaingun"
+	gun -10 -42 "Auroran Missile Pod"
+	gun 10 -42 "Auroran Missile Pod"
+	gun 0 -45 "Auroran Missile Pod"
+	leak "leak" 35 50
+	leak "flame" 45 80
+	leak "big leak" 65 30
+	explode "tiny explosion" 40
+	explode "small explosion" 70
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
+	description "The Aurora Cruiser represents the pinnacle of Auroran military engineering before the Abomination. This massive warship combines devastating firepower with advanced Auroran technology, making it capable of engaging multiple enemies simultaneously."
+
+ship "Aurora Thunderforge"
+	sprite "ship/aurora_thunderforge"
+	thumbnail "thumbnail/aurora_thunderforge"
+	attributes
+		category "Heavy Warship"
+		"cost" 2400000
+		"shields" 6000
+		"hull" 3000
+		"required crew" 32
+		"bunks" 45
+		"mass" 520
+		"drag" 9.8
+		"heat dissipation" .55
+		"fuel capacity" 650
+		"cargo space" 100
+		"outfit space" 680
+		"weapon capacity" 260
+		"engine capacity" 180
+		weapon
+			"blast radius" 100
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 3600
+	outfits
+		"Auroran Particle Beam" 5
+		"Auroran Storm Chaingun" 2
+		"Auroran Missile" 80
+		"Auroran Missile Pod" 4
+		"Auroran Shield Matrix" 4
+		"Auroran Fusion Core"
+		"Auroran Ion Drive"
+		"Auroran Steering System"
+		"Hyperdrive"
+	engine -25 65
+	engine 25 65
+	gun -18 -50 "Auroran Particle Beam"
+	gun 18 -50 "Auroran Particle Beam"
+	gun -12 -52 "Auroran Particle Beam"
+	gun 12 -52 "Auroran Particle Beam"
+	gun 0 -55 "Auroran Particle Beam"
+	gun -22 -40 "Auroran Storm Chaingun"
+	gun 22 -40 "Auroran Storm Chaingun"
+	gun -8 -45 "Auroran Missile Pod"
+	gun 8 -45 "Auroran Missile Pod"
+	gun -4 -48 "Auroran Missile Pod"
+	gun 4 -48 "Auroran Missile Pod"
+	leak "leak" 32 50
+	leak "flame" 42 80
+	leak "big leak" 62 30
+	explode "tiny explosion" 45
+	explode "small explosion" 75
+	explode "medium explosion" 65
+	explode "large explosion" 45
+	explode "huge explosion" 25
+	"final explode" "final explosion huge"
+	description "The Aurora Thunderforge is a specialized artillery platform designed to deliver devastating long-range firepower. Its multiple particle beams can tear through enemy formations at extreme range, while its missile systems provide additional punch against heavily armored targets."

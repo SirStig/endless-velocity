@@ -145,3 +145,293 @@ ship "Polaris Raven"
 	explode "huge explosion" 30
 	"final explode" "final explosion huge"
 	description "The Raven is the ultimate expression of Polaris military might. This titanic warship carries earth-shattering weaponry that can devastate entire fleets. Its organic nature makes it seem more like a living creature than a constructed vessel."
+
+ship "Polaris Sprite"
+	sprite "ship/polaris_sprite"
+	thumbnail "thumbnail/polaris_sprite"
+	attributes
+		category "Interceptor"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 800
+		"hull" 400
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 0.7
+		"heat dissipation" 1.3
+		"fuel capacity" 300
+		"cargo space" 8
+		"outfit space" 80
+		"weapon capacity" 20
+		"engine capacity" 25
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Polaris Bio-Beam"
+		"Polaris Organic Shield"
+		"Polaris Bio-Core"
+		"Polaris Organic Thruster"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine 0 15
+	gun 0 -8 "Polaris Bio-Beam"
+	leak "leak" 90 50
+	explode "tiny explosion" 8
+	explode "small explosion" 5
+	"final explode" "final explosion tiny"
+	description "The Polaris Sprite is the smallest vessel in the Polaris fleet, designed for reconnaissance and courier duties. Despite its tiny size, its organic technology makes it surprisingly resilient and capable of operating in environments that would destroy conventional ships."
+
+ship "Polaris Striker"
+	sprite "ship/polaris_striker"
+	thumbnail "thumbnail/polaris_striker"
+	attributes
+		category "Light Warship"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 2200
+		"hull" 1100
+		"required crew" 2
+		"bunks" 3
+		"mass" 85
+		"drag" 2.2
+		"heat dissipation" 1.0
+		"fuel capacity" 450
+		"cargo space" 20
+		"outfit space" 220
+		"weapon capacity" 70
+		"engine capacity" 65
+		weapon
+			"blast radius" 32
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 570
+	outfits
+		"Polaris Bio-Beam" 2
+		"Polaris Bio-Torpedo" 10
+		"Polaris Bio-Torpedo Launcher"
+		"Polaris Organic Shield" 2
+		"Polaris Bio-Core"
+		"Polaris Organic Thruster"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine -10 28
+	engine 10 28
+	gun -5 -18 "Polaris Bio-Beam"
+	gun 5 -18 "Polaris Bio-Beam"
+	gun 0 -22 "Polaris Bio-Torpedo Launcher"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 18
+	explode "small explosion" 22
+	explode "medium explosion" 8
+	"final explode" "final explosion medium"
+	description "The Striker serves as the Polaris equivalent of a patrol vessel, combining speed with moderate firepower. Its bio-torpedo launcher gives it an edge against larger opponents, while its organic systems provide excellent reliability during extended operations."
+
+ship "Polaris Dragon"
+	sprite "ship/polaris_dragon"
+	thumbnail "thumbnail/polaris_dragon"
+	attributes
+		category "Light Warship"
+		"cost" 0  # Cannot be purchased by humans
+		"shields" 3600
+		"hull" 1800
+		"required crew" 4
+		"bunks" 6
+		"mass" 150
+		"drag" 3.8
+		"heat dissipation" 0.95
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 320
+		"weapon capacity" 120
+		"engine capacity" 85
+		weapon
+			"blast radius" 48
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Polaris Bio-Beam" 2
+		"Polaris Multi-Beam"
+		"Polaris Bio-Torpedo" 15
+		"Polaris Bio-Torpedo Launcher"
+		"Polaris Organic Shield" 3
+		"Polaris Bio-Core" 2
+		"Polaris Organic Drive"
+		"Polaris Organic Steering"
+		"Jump Drive"
+	engine -15 35
+	engine 15 35
+	gun -8 -25 "Polaris Bio-Beam"
+	gun 8 -25 "Polaris Bio-Beam"
+	gun 0 -30 "Polaris Multi-Beam"
+	gun -4 -28 "Polaris Bio-Torpedo Launcher"
+	leak "leak" 55 50
+	leak "flame" 65 80
+	leak "big leak" 85 30
+	explode "tiny explosion" 25
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "The Dragon is a versatile assault craft that bridges the gap between light and medium Polaris vessels. Its multi-beam weapon system can adapt to different combat situations, making it effective against both fighters and larger ships."
+
+ship "Polaris Zephyr"
+	sprite "ship/polaris_zephyr"
+	thumbnail "thumbnail/polaris_zephyr"
+	attributes
+		category "Light Warship"
+		"cost" 1450000
+		"shields" 3800
+		"hull" 1900
+		"required crew" 8
+		"bunks" 12
+		"mass" 185
+		"drag" 4.2
+		"heat dissipation" .85
+		"fuel capacity" 600
+		"cargo space" 45
+		"outfit space" 420
+		"weapon capacity" 110
+		"engine capacity" 95
+		weapon
+			"blast radius" 58
+			"shield damage" 1450
+			"hull damage" 725
+			"hit force" 2175
+	outfits
+		"Polaris Torpedo" 30
+		"Polaris Torpedo Launcher" 2
+		"Bio-Electric Beam" 2
+		"Bio-Adaptive Plating" 2
+		"Bio-Neural Processor"
+		"Bio-Energy Converter"
+		"Bio-Plasma Drive"
+		"Bio-Neural Steering"
+		"Hyperdrive"
+	engine -18 42
+	engine 18 42
+	gun -12 -28 "Bio-Electric Beam"
+	gun 12 -28 "Bio-Electric Beam"
+	gun -8 -30 "Polaris Torpedo Launcher"
+	gun 8 -30 "Polaris Torpedo Launcher"
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 32
+	explode "small explosion" 48
+	explode "medium explosion" 38
+	explode "large explosion" 22
+	"final explode" "final explosion large"
+	description "The Polaris Zephyr is a fast attack vessel designed for hit-and-run tactics. Its bio-adaptive systems allow it to modify its performance characteristics during combat, making it unpredictable and dangerous."
+
+ship "Polaris Arachnid"
+	sprite "ship/polaris_arachnid"
+	thumbnail "thumbnail/polaris_arachnid"
+	attributes
+		category "Medium Warship"
+		"cost" 2850000
+		"shields" 6200
+		"hull" 3800
+		"required crew" 18
+		"bunks" 25
+		"mass" 420
+		"drag" 8.5
+		"heat dissipation" .70
+		"fuel capacity" 800
+		"cargo space" 85
+		"outfit space" 680
+		"weapon capacity" 220
+		"engine capacity" 180
+		weapon
+			"blast radius" 114
+			"shield damage" 2850
+			"hull damage" 1425
+			"hit force" 4275
+	outfits
+		"Polaris Multi-Torpedo" 24
+		"Polaris Multi-Torpedo Launcher" 3
+		"Bio-Electric Beam" 2
+		"Bio-Plasma Cannon"
+		"Bio-Adaptive Plating" 3
+		"Bio-Neural Processor" 2
+		"Bio-Energy Converter"
+		"Bio-Plasma Drive"
+		"Bio-Neural Steering"
+		"Hyperdrive"
+	engine -28 65
+	engine 28 65
+	gun -20 -35 "Bio-Electric Beam"
+	gun 20 -35 "Bio-Electric Beam"
+	gun 0 -40 "Bio-Plasma Cannon"
+	gun -15 -30 "Polaris Multi-Torpedo Launcher"
+	gun 15 -30 "Polaris Multi-Torpedo Launcher"
+	gun 0 -32 "Polaris Multi-Torpedo Launcher"
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 45
+	explode "small explosion" 75
+	explode "medium explosion" 65
+	explode "large explosion" 45
+	explode "huge explosion" 25
+	"final explode" "final explosion huge"
+	description "The Polaris Arachnid is a multi-role warship with sophisticated bio-neural systems that coordinate complex tactical maneuvers. Its spider-like design and multiple weapon systems make it a versatile and deadly opponent."
+
+ship "Polaris Cambrian"
+	sprite "ship/polaris_cambrian"
+	thumbnail "thumbnail/polaris_cambrian"
+	attributes
+		category "Heavy Warship"
+		"cost" 4200000
+		"shields" 8800
+		"hull" 5200
+		"required crew" 35
+		"bunks" 45
+		"mass" 680
+		"drag" 14.2
+		"heat dissipation" .60
+		"fuel capacity" 1000
+		"cargo space" 120
+		"outfit space" 920
+		"weapon capacity" 320
+		"engine capacity" 240
+		weapon
+			"blast radius" 168
+			"shield damage" 4200
+			"hull damage" 2100
+			"hit force" 6300
+	outfits
+		"Polaris Multi-Torpedo" 32
+		"Polaris Multi-Torpedo Launcher" 4
+		"Bio-Electric Beam" 4
+		"Bio-Plasma Cannon" 2
+		"Bio-Adaptive Plating" 4
+		"Bio-Neural Processor" 3
+		"Bio-Energy Converter" 2
+		"Bio-Plasma Drive"
+		"Bio-Neural Steering"
+		"Hyperdrive"
+	engine -35 85
+	engine 35 85
+	gun -25 -45 "Bio-Electric Beam"
+	gun 25 -45 "Bio-Electric Beam"
+	gun -18 -48 "Bio-Electric Beam"
+	gun 18 -48 "Bio-Electric Beam"
+	gun -12 -50 "Bio-Plasma Cannon"
+	gun 12 -50 "Bio-Plasma Cannon"
+	gun -30 -35 "Polaris Multi-Torpedo Launcher"
+	gun 30 -35 "Polaris Multi-Torpedo Launcher"
+	gun -22 -40 "Polaris Multi-Torpedo Launcher"
+	gun 22 -40 "Polaris Multi-Torpedo Launcher"
+	leak "leak" 25 50
+	leak "flame" 35 80
+	leak "big leak" 55 30
+	explode "tiny explosion" 60
+	explode "small explosion" 100
+	explode "medium explosion" 85
+	explode "large explosion" 65
+	explode "huge explosion" 35
+	"final explode" "final explosion huge"
+	description "The Polaris Cambrian is the largest and most powerful vessel in the Polaris fleet. This massive bio-ship represents millions of years of organic evolution and technological development, capable of taking on entire enemy fleets single-handedly."

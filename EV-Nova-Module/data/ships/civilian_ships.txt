@@ -1,0 +1,682 @@
+# Civilian Ships - EV Nova Module
+# Independent vessels available to civilian pilots
+
+ship "Cargo Drone"
+	sprite "ship/cargo_drone"
+	thumbnail "thumbnail/cargo_drone"
+	attributes
+		category "Transport"
+		"cost" 25000
+		"shields" 200
+		"hull" 400
+		"automaton" 1
+		"mass" 15
+		"drag" 1.2
+		"heat dissipation" 1.0
+		"fuel capacity" 200
+		"cargo space" 35
+		"outfit space" 45
+		"weapon capacity" 0
+		"engine capacity" 15
+		weapon
+			"blast radius" 8
+			"shield damage" 25
+			"hull damage" 12
+			"hit force" 37
+	outfits
+		"nGVF-AA Fuel Cell"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine 0 15
+	leak "leak" 90 50
+	explode "tiny explosion" 5
+	explode "small explosion" 3
+	"final explode" "final explosion tiny"
+	description "The Cargo Drone is an unmanned freight hauler used for routine cargo runs in safe space. While completely defenseless, its low cost and decent cargo capacity make it popular among budget-conscious merchants."
+
+ship "Shuttle"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes
+		category "Transport"
+		"cost" 180000
+		"shields" 600
+		"hull" 300
+		"required crew" 1
+		"bunks" 8
+		"mass" 35
+		"drag" 1.8
+		"heat dissipation" .90
+		"fuel capacity" 300
+		"cargo space" 20
+		"outfit space" 120
+		"weapon capacity" 10
+		"engine capacity" 35
+		weapon
+			"blast radius" 15
+			"shield damage" 180
+			"hull damage" 90
+			"hit force" 270
+	outfits
+		"Blaster"
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -8 20
+	engine 8 20
+	gun 0 -12 "Blaster"
+	leak "leak" 80 50
+	leak "flame" 90 80
+	explode "tiny explosion" 10
+	explode "small explosion" 8
+	"final explode" "final explosion small"
+	description "The Shuttle is a basic passenger transport designed for short-range travel between planets and stations. Its modest armament and shielding provide some protection against pirates, while its passenger capacity makes it ideal for civilian transport operations."
+
+ship "Heavy Shuttle"
+	sprite "ship/heavy_shuttle"
+	thumbnail "thumbnail/heavy_shuttle"
+	attributes
+		category "Transport"
+		"cost" 290000
+		"shields" 1000
+		"hull" 500
+		"required crew" 2
+		"bunks" 16
+		"mass" 65
+		"drag" 2.8
+		"heat dissipation" .85
+		"fuel capacity" 400
+		"cargo space" 35
+		"outfit space" 180
+		"weapon capacity" 20
+		"engine capacity" 55
+		weapon
+			"blast radius" 22
+			"shield damage" 290
+			"hull damage" 145
+			"hit force" 435
+	outfits
+		"Blaster" 2
+		"D23-QP Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -12 25
+	engine 12 25
+	gun -5 -15 "Blaster"
+	gun 5 -15 "Blaster"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 15
+	explode "small explosion" 12
+	"final explode" "final explosion small"
+	description "The Heavy Shuttle is an upgraded passenger transport capable of carrying larger groups over longer distances. Its improved shielding and dual blasters provide better protection than the standard Shuttle, making it suitable for travel through less secure systems."
+
+ship "Civilian Viper"
+	sprite "ship/civilian_viper"
+	thumbnail "thumbnail/civilian_viper"
+	attributes
+		category "Fighter"
+		"cost" 120000
+		"shields" 700
+		"hull" 350
+		"required crew" 1
+		"bunks" 2
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" .90
+		"fuel capacity" 300
+		"cargo space" 18
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 35
+		weapon
+			"blast radius" 18
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Blaster"
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -7 25
+	engine 7 25
+	gun 0 -10 "Blaster"
+	leak "leak" 80 50
+	leak "flame" 90 80
+	explode "tiny explosion" 8
+	explode "small explosion" 12
+	"final explode" "final explosion small"
+	description "The civilian version of the military Viper fighter, this vessel strips away most of the military hardware in favor of increased cargo capacity and civilian amenities. Popular among independent pilots and small courier services."
+
+ship "Asteroid Miner"
+	sprite "ship/asteroid_miner"
+	thumbnail "thumbnail/asteroid_miner"
+	attributes
+		category "Transport"
+		"cost" 380000
+		"shields" 800
+		"hull" 1200
+		"required crew" 3
+		"bunks" 6
+		"mass" 120
+		"drag" 4.2
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 220
+		"weapon capacity" 25
+		"engine capacity" 70
+		weapon
+			"blast radius" 35
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 570
+	outfits
+		"Mining Laser"
+		"D23-QP Shield Generator"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		"Asteroid Scanner"
+	engine -15 35
+	engine 15 35
+	gun 0 -20 "Mining Laser"
+	leak "leak" 60 50
+	leak "flame" 70 80
+	explode "tiny explosion" 18
+	explode "small explosion" 25
+	explode "medium explosion" 12
+	"final explode" "final explosion medium"
+	description "The Asteroid Miner is a specialized industrial vessel designed for extracting valuable minerals from asteroids. Its mining laser and reinforced hull allow it to work in dangerous asteroid fields, while its large cargo hold can store significant amounts of raw materials."
+
+ship "Terrapin"
+	sprite "ship/terrapin"
+	thumbnail "thumbnail/terrapin"
+	attributes
+		category "Light Freighter"
+		"cost" 190000
+		"shields" 600
+		"hull" 800
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 2.4
+		"heat dissipation" .80
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 160
+		"weapon capacity" 15
+		"engine capacity" 50
+		weapon
+			"blast radius" 25
+			"shield damage" 190
+			"hull damage" 95
+			"hit force" 285
+	outfits
+		"Blaster"
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -10 30
+	engine 10 30
+	gun 0 -15 "Blaster"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 12
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description "The Terrapin is a small, sturdy freighter popular among independent merchants. Its reliable construction and decent cargo capacity make it ideal for small-scale trading operations, while its modest armament provides some protection against pirates."
+
+ship "Lightning"
+	sprite "ship/lightning"
+	thumbnail "thumbnail/lightning"
+	attributes
+		category "Interceptor"
+		"cost" 220000
+		"shields" 800
+		"hull" 300
+		"required crew" 1
+		"bunks" 2
+		"mass" 30
+		"drag" 0.9
+		"heat dissipation" .95
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 140
+		"weapon capacity" 25
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 220
+			"hull damage" 110
+			"hit force" 330
+	outfits
+		"Blaster" 2
+		"D14-RN Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -6 22
+	engine 6 22
+	gun -3 -12 "Blaster"
+	gun 3 -12 "Blaster"
+	leak "leak" 85 50
+	leak "flame" 95 80
+	explode "tiny explosion" 8
+	explode "small explosion" 10
+	"final explode" "final explosion small"
+	description "The Lightning is a fast, lightly armed interceptor popular among courier services and thrill-seekers. Its exceptional speed and maneuverability make it excellent for evading pirates, though its light construction means it cannot survive prolonged combat."
+
+ship "Thunderhead"
+	sprite "ship/thunderhead"
+	thumbnail "thumbnail/thunderhead"
+	attributes
+		category "Heavy Freighter"
+		"cost" 520000
+		"shields" 1200
+		"hull" 2400
+		"required crew" 4
+		"bunks" 8
+		"mass" 180
+		"drag" 6.2
+		"heat dissipation" .65
+		"fuel capacity" 500
+		"cargo space" 120
+		"outfit space" 280
+		"weapon capacity" 40
+		"engine capacity" 85
+		weapon
+			"blast radius" 45
+			"shield damage" 520
+			"hull damage" 260
+			"hit force" 780
+	outfits
+		"Blaster" 2
+		"D23-QP Shield Generator"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -20 45
+	engine 20 45
+	gun -8 -25 "Blaster"
+	gun 8 -25 "Blaster"
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 20
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "The Thunderhead is a large, heavily built freighter designed for bulk cargo operations. Its massive cargo hold and sturdy construction make it ideal for transporting large quantities of goods, though its slow speed makes it vulnerable to pirate attacks."
+
+ship "Valkyrie"
+	sprite "ship/valkyrie"
+	thumbnail "thumbnail/valkyrie"
+	attributes
+		category "Medium Freighter"
+		"cost" 380000
+		"shields" 1000
+		"hull" 1500
+		"required crew" 3
+		"bunks" 6
+		"mass" 130
+		"drag" 4.8
+		"heat dissipation" .70
+		"fuel capacity" 450
+		"cargo space" 85
+		"outfit space" 240
+		"weapon capacity" 35
+		"engine capacity" 70
+		weapon
+			"blast radius" 38
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 570
+	outfits
+		"Blaster" 2
+		"D23-QP Shield Generator"
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -15 35
+	engine 15 35
+	gun -6 -20 "Blaster"
+	gun 6 -20 "Blaster"
+	leak "leak" 55 50
+	leak "flame" 65 80
+	leak "big leak" 85 30
+	explode "tiny explosion" 18
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "The Valkyrie is a versatile medium freighter that balances cargo capacity with defensive capability. Popular among merchants operating in dangerous space, its combination of armor, shields, and firepower provides reasonable protection while maintaining good cargo capacity."
+
+ship "Star Liner"
+	sprite "ship/star_liner"
+	thumbnail "thumbnail/star_liner"
+	attributes
+		category "Transport"
+		"cost" 2200000
+		"shields" 3200
+		"hull" 1600
+		"required crew" 8
+		"bunks" 150
+		"mass" 320
+		"drag" 8.5
+		"heat dissipation" .60
+		"fuel capacity" 700
+		"cargo space" 80
+		"outfit space" 480
+		"weapon capacity" 60
+		"engine capacity" 140
+		weapon
+			"blast radius" 75
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 3300
+	outfits
+		"Blaster" 4
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		"Passenger Cabin" 35
+	engine -25 65
+	engine 25 65
+	gun -15 -40 "Blaster"
+	gun 15 -40 "Blaster"
+	gun -10 -42 "Blaster"
+	gun 10 -42 "Blaster"
+	leak "leak" 35 50
+	leak "flame" 45 80
+	leak "big leak" 65 30
+	explode "tiny explosion" 35
+	explode "small explosion" 55
+	explode "medium explosion" 45
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description "The Star Liner is a luxury passenger transport designed for high-capacity, long-distance travel. Its spacious accommodations and defensive armament make it the preferred choice for wealthy passengers traveling through dangerous space."
+
+ship "Starbridge"
+	sprite "ship/starbridge"
+	thumbnail "thumbnail/starbridge"
+	attributes
+		category "Light Warship"
+		"cost" 850000
+		"shields" 2400
+		"hull" 1200
+		"required crew" 4
+		"bunks" 12
+		"mass" 150
+		"drag" 3.8
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 60
+		"outfit space" 340
+		"weapon capacity" 95
+		"engine capacity" 85
+		weapon
+			"blast radius" 42
+			"shield damage" 850
+			"hull damage" 425
+			"hit force" 1275
+	outfits
+		"Blaster" 4
+		"Javelin Missile" 40
+		"Javelin Missile Launcher" 2
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine -15 40
+	engine 15 40
+	gun -8 -30 "Blaster"
+	gun 8 -30 "Blaster"
+	gun -5 -32 "Blaster"
+	gun 5 -32 "Blaster"
+	gun -12 -25 "Javelin Missile Launcher"
+	gun 12 -25 "Javelin Missile Launcher"
+	leak "leak" 45 50
+	leak "flame" 55 80
+	leak "big leak" 75 30
+	explode "tiny explosion" 25
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion large"
+	description "The Starbridge is a versatile civilian warship that bridges the gap between freighter and fighter. Originally designed as a luxury yacht, many have been converted for military or mercenary use due to their excellent balance of speed, firepower, and cargo capacity."
+
+ship "Modified Starbridge"
+	sprite "ship/mod_starbridge"
+	thumbnail "thumbnail/mod_starbridge"
+	attributes
+		category "Light Warship"
+		"cost" 1200000
+		"shields" 3000
+		"hull" 1500
+		"required crew" 5
+		"bunks" 15
+		"mass" 165
+		"drag" 4.2
+		"heat dissipation" .80
+		"fuel capacity" 600
+		"cargo space" 45
+		"outfit space" 420
+		"weapon capacity" 120
+		"engine capacity" 100
+		weapon
+			"blast radius" 48
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Blaster" 6
+		"Javelin Missile" 60
+		"Javelin Missile Launcher" 3
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		"Advanced Scanner"
+		"Outfit Scanner"
+	engine -15 40
+	engine 15 40
+	gun -10 -30 "Blaster"
+	gun 10 -30 "Blaster"
+	gun -6 -32 "Blaster"
+	gun 6 -32 "Blaster"
+	gun -3 -34 "Blaster"
+	gun 3 -34 "Blaster"
+	gun -15 -25 "Javelin Missile Launcher"
+	gun 15 -25 "Javelin Missile Launcher"
+	gun 0 -28 "Javelin Missile Launcher"
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description "The Modified Starbridge represents the pinnacle of civilian ship customization. Enhanced with military-grade systems and additional weapons, it sacrifices some cargo space for significantly improved combat capability while maintaining the Starbridge's renowned versatility."
+
+ship "IDA Frigate"
+	sprite "ship/ida_frigate"
+	thumbnail "thumbnail/ida_frigate"
+	attributes
+		category "Medium Warship"
+		"cost" 1800000
+		"shields" 4200
+		"hull" 2800
+		"required crew" 12
+		"bunks" 18
+		"mass" 280
+		"drag" 6.8
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 85
+		"outfit space" 520
+		"weapon capacity" 180
+		"engine capacity" 140
+		weapon
+			"blast radius" 70
+			"shield damage" 1800
+			"hull damage" 900
+			"hit force" 2700
+	outfits
+		"Blaster Turret" 3
+		"Javelin Missile" 80
+		"Javelin Missile Launcher" 4
+		"D94-YV Shield Generator"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine -22 55
+	engine 22 55
+	gun -18 -35 "Javelin Missile Launcher"
+	gun 18 -35 "Javelin Missile Launcher"
+	gun -12 -38 "Javelin Missile Launcher"
+	gun 12 -38 "Javelin Missile Launcher"
+	turret -15 -15 "Blaster Turret"
+	turret 15 -15 "Blaster Turret"
+	turret 0 10 "Blaster Turret"
+	leak "leak" 35 50
+	leak "flame" 45 80
+	leak "big leak" 65 30
+	explode "tiny explosion" 35
+	explode "small explosion" 60
+	explode "medium explosion" 50
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description "The IDA Frigate is a corporate security vessel operated by the Industrial Defense Authority. Designed for protecting corporate assets and maintaining order in corporate space, it combines military-grade firepower with civilian reliability."
+
+ship "Pegasus"
+	sprite "ship/pegasus"
+	thumbnail "thumbnail/pegasus"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1200000
+		"shields" 2400
+		"hull" 4800
+		"required crew" 8
+		"bunks" 16
+		"mass" 450
+		"drag" 12.8
+		"heat dissipation" .55
+		"fuel capacity" 800
+		"cargo space" 200
+		"outfit space" 420
+		"weapon capacity" 80
+		"engine capacity" 160
+		weapon
+			"blast radius" 85
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Blaster" 4
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		"Cargo Expansion" 5
+	engine -30 75
+	engine 30 75
+	gun -20 -50 "Blaster"
+	gun 20 -50 "Blaster"
+	gun -15 -52 "Blaster"
+	gun 15 -52 "Blaster"
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 70
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description "The Pegasus is a heavy-duty cargo hauler designed for bulk transport operations. Its massive cargo hold and robust construction make it ideal for moving large quantities of goods across long distances, though its size makes it vulnerable to pirate attacks."
+
+ship "Leviathan"
+	sprite "ship/leviathan"
+	thumbnail "thumbnail/leviathan"
+	attributes
+		category "Heavy Freighter"
+		"cost" 2800000
+		"shields" 4800
+		"hull" 9600
+		"required crew" 15
+		"bunks" 25
+		"mass" 850
+		"drag" 22.5
+		"heat dissipation" .45
+		"fuel capacity" 1000
+		"cargo space" 400
+		"outfit space" 720
+		"weapon capacity" 120
+		"engine capacity" 280
+		weapon
+			"blast radius" 140
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+		"Blaster Turret" 4
+		"Javelin Missile" 100
+		"Javelin Missile Launcher" 2
+		"D94-YV Shield Generator"
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		"Cargo Expansion" 8
+	engine -40 95
+	engine 40 95
+	gun -35 -60 "Javelin Missile Launcher"
+	gun 35 -60 "Javelin Missile Launcher"
+	turret -25 -40 "Blaster Turret"
+	turret 25 -40 "Blaster Turret"
+	turret -20 20 "Blaster Turret"
+	turret 20 20 "Blaster Turret"
+	leak "leak" 25 50
+	leak "flame" 35 80
+	leak "big leak" 55 30
+	explode "tiny explosion" 60
+	explode "small explosion" 100
+	explode "medium explosion" 80
+	explode "large explosion" 60
+	explode "huge explosion" 30
+	"final explode" "final explosion huge"
+	description "The Leviathan is the largest civilian cargo vessel in known space. This massive freighter can carry enormous quantities of cargo, making it essential for major trade operations. Its size requires substantial defensive armament and escort protection during transit through dangerous regions."

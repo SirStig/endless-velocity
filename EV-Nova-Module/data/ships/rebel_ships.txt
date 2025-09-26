@@ -1,0 +1,409 @@
+# Rebel Ships - EV Nova Module
+# Revolutionary vessels modified for guerrilla warfare against the Federation
+
+ship "Rebel Viper"
+	sprite "ship/rebel_viper"
+	thumbnail "thumbnail/rebel_viper"
+	attributes
+		category "Fighter"
+		"cost" 165000
+		"shields" 900
+		"hull" 450
+		"required crew" 1
+		"bunks" 2
+		"mass" 43
+		"drag" 1.1
+		"heat dissipation" .90
+		"fuel capacity" 350
+		"cargo space" 12
+		"outfit space" 145
+		"weapon capacity" 30
+		"engine capacity" 42
+		weapon
+			"blast radius" 21
+			"shield damage" 165
+			"hull damage" 82
+			"hit force" 247
+	outfits
+		"Blaster" 2
+		"Rebel Scrambler"
+		"Rebel Shield"
+		"Rebel Generator"
+		"Rebel Battery"
+		"Rebel Thruster"
+		"Rebel Steering"
+		"Hyperdrive"
+	engine -7 25
+	engine 7 25
+	gun -5 -10 "Blaster"
+	gun 5 -10 "Blaster"
+	gun 0 -12 "Rebel Scrambler"
+	leak "leak" 70 50
+	leak "flame" 80 80
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	"final explode" "final explosion small"
+	description "A modified Federation Viper adapted for Rebel operations. Enhanced with improved shields and electronic warfare equipment, it serves as the backbone of Rebel fighter squadrons in their fight against Federation oppression."
+
+ship "Rebel Lightning"
+	sprite "ship/rebel_lightning"
+	thumbnail "thumbnail/rebel_lightning"
+	attributes
+		category "Interceptor"
+		"cost" 285000
+		"shields" 1200
+		"hull" 400
+		"required crew" 1
+		"bunks" 2
+		"mass" 32
+		"drag" 0.8
+		"heat dissipation" 1.0
+		"fuel capacity" 400
+		"cargo space" 18
+		"outfit space" 165
+		"weapon capacity" 35
+		"engine capacity" 55
+		weapon
+			"blast radius" 19
+			"shield damage" 285
+			"hull damage" 142
+			"hit force" 427
+	outfits
+		"Blaster" 3
+		"Rebel Scrambler"
+		"Rebel Shield"
+		"Rebel Generator"
+		"Rebel Battery"
+		"Rebel Thruster"
+		"Rebel Steering"
+		"Hyperdrive"
+	engine -6 22
+	engine 6 22
+	gun -4 -12 "Blaster"
+	gun 4 -12 "Blaster"
+	gun 0 -14 "Blaster"
+	gun -2 -10 "Rebel Scrambler"
+	leak "leak" 80 50
+	leak "flame" 90 80
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description "A fast interceptor modified by Rebel engineers for hit-and-run attacks against Federation forces. Its speed and electronic warfare capabilities make it ideal for disrupting Federation communications and supply lines."
+
+ship "Rebel Valkyrie"
+	sprite "ship/rebel_valkyrie"
+	thumbnail "thumbnail/rebel_valkyrie"
+	attributes
+		category "Medium Freighter"
+		"cost" 485000
+		"shields" 1400
+		"hull" 1800
+		"required crew" 4
+		"bunks" 8
+		"mass" 145
+		"drag" 4.5
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 65
+		"outfit space" 285
+		"weapon capacity" 55
+		"engine capacity" 80
+		weapon
+			"blast radius" 48
+			"shield damage" 485
+			"hull damage" 242
+			"hit force" 727
+	outfits
+		"Blaster" 3
+		"Rebel Missile" 30
+		"Rebel Missile Launcher"
+		"Rebel Shield" 2
+		"Rebel Generator"
+		"Rebel Battery"
+		"Rebel Thruster"
+		"Rebel Steering"
+		"Hyperdrive"
+	engine -15 35
+	engine 15 35
+	gun -8 -20 "Blaster"
+	gun 8 -20 "Blaster"
+	gun 0 -22 "Blaster"
+	gun -5 -18 "Rebel Missile Launcher"
+	leak "leak" 55 50
+	leak "flame" 65 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 22
+	explode "small explosion" 32
+	explode "medium explosion" 22
+	"final explode" "final explosion medium"
+	description "A converted civilian freighter modified for Rebel operations. The Rebel Valkyrie serves dual roles as both supply transport and combat vessel, equipped with weapons and armor to survive in contested space."
+
+ship "Rebel Thunderhead"
+	sprite "ship/rebel_thunderhead"
+	thumbnail "thumbnail/rebel_thunderhead"
+	attributes
+		category "Heavy Fighter"
+		"cost" 685000
+		"shields" 1800
+		"hull" 2700
+		"required crew" 5
+		"bunks" 8
+		"mass" 195
+		"drag" 5.8
+		"heat dissipation" .70
+		"fuel capacity" 550
+		"cargo space" 85
+		"outfit space" 350
+		"weapon capacity" 80
+		"engine capacity" 100
+		weapon
+			"blast radius" 68
+			"shield damage" 685
+			"hull damage" 342
+			"hit force" 1027
+	outfits
+		"Blaster" 4
+		"Rebel Missile" 40
+		"Rebel Missile Launcher" 2
+		"Rebel Shield" 2
+		"Rebel Generator" 2
+		"Rebel Battery"
+		"Rebel Thruster"
+		"Rebel Steering"
+		"Hyperdrive"
+	engine -20 45
+	engine 20 45
+	gun -12 -25 "Blaster"
+	gun 12 -25 "Blaster"
+	gun -8 -28 "Blaster"
+	gun 8 -28 "Blaster"
+	gun -15 -20 "Rebel Missile Launcher"
+	gun 15 -20 "Rebel Missile Launcher"
+	leak "leak" 42 50
+	leak "flame" 52 80
+	leak "big leak" 72 30
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 35
+	"final explode" "final explosion medium"
+	description "A heavily modified Thunderhead converted into a Rebel assault vessel. Enhanced with military-grade weapons and armor, it serves as a heavy fighter capable of taking on Federation warships."
+
+ship "Rebel Starbridge"
+	sprite "ship/rebel_starbridge"
+	thumbnail "thumbnail/rebel_starbridge"
+	attributes
+		category "Light Warship"
+		"cost" 1125000
+		"shields" 3200
+		"hull" 1600
+		"required crew" 6
+		"bunks" 15
+		"mass" 165
+		"drag" 3.5
+		"heat dissipation" .80
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 420
+		"weapon capacity" 125
+		"engine capacity" 105
+		weapon
+			"blast radius" 56
+			"shield damage" 1125
+			"hull damage" 562
+			"hit force" 1687
+	outfits
+		"Blaster" 6
+		"Rebel Missile" 60
+		"Rebel Missile Launcher" 3
+		"Rebel Scrambler" 2
+		"Rebel Shield" 2
+		"Rebel Generator" 2
+		"Rebel Battery"
+		"Rebel Thruster"
+		"Rebel Steering"
+		"Hyperdrive"
+		"Interference Plating"
+	engine -15 40
+	engine 15 40
+	gun -10 -30 "Blaster"
+	gun 10 -30 "Blaster"
+	gun -6 -32 "Blaster"
+	gun 6 -32 "Blaster"
+	gun -3 -34 "Blaster"
+	gun 3 -34 "Blaster"
+	gun -15 -25 "Rebel Missile Launcher"
+	gun 15 -25 "Rebel Missile Launcher"
+	gun 0 -28 "Rebel Missile Launcher"
+	gun -12 -22 "Rebel Scrambler"
+	gun 12 -22 "Rebel Scrambler"
+	leak "leak" 38 50
+	leak "flame" 48 80
+	leak "big leak" 68 30
+	explode "tiny explosion" 35
+	explode "small explosion" 52
+	explode "medium explosion" 42
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description "A heavily modified Starbridge serving as a Rebel command vessel. Enhanced with advanced electronics and additional weaponry, it coordinates Rebel operations while providing substantial firepower in combat."
+
+ship "Rebel Destroyer"
+	sprite "ship/rebel_destroyer"
+	thumbnail "thumbnail/rebel_destroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 2850000
+		"shields" 6200
+		"hull" 3100
+		"required crew" 22
+		"bunks" 30
+		"mass" 420
+		"drag" 8.2
+		"heat dissipation" .65
+		"fuel capacity" 700
+		"cargo space" 95
+		"outfit space" 680
+		"weapon capacity" 240
+		"engine capacity" 180
+		weapon
+			"blast radius" 114
+			"shield damage" 2850
+			"hull damage" 1425
+			"hit force" 4275
+	outfits
+		"Rebel Beam" 4
+		"Rebel Missile" 100
+		"Rebel Missile Launcher" 4
+		"Rebel Scrambler" 2
+		"Rebel Shield" 4
+		"Rebel Fusion Core"
+		"Rebel Battery" 2
+		"Rebel Drive"
+		"Rebel Steering System"
+		"Hyperdrive"
+		"Interference Plating"
+	engine -28 70
+	engine 28 70
+	gun -22 -45 "Rebel Beam"
+	gun 22 -45 "Rebel Beam"
+	gun -18 -48 "Rebel Beam"
+	gun 18 -48 "Rebel Beam"
+	gun -25 -35 "Rebel Missile Launcher"
+	gun 25 -35 "Rebel Missile Launcher"
+	gun -20 -40 "Rebel Missile Launcher"
+	gun 20 -40 "Rebel Missile Launcher"
+	gun -15 -30 "Rebel Scrambler"
+	gun 15 -30 "Rebel Scrambler"
+	leak "leak" 30 50
+	leak "flame" 40 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 45
+	explode "small explosion" 75
+	explode "medium explosion" 65
+	explode "large explosion" 45
+	explode "huge explosion" 25
+	"final explode" "final explosion huge"
+	description "The Rebel Destroyer is the heaviest warship in the Rebel fleet. Built from captured Federation technology and enhanced with Rebel innovations, it serves as the flagship for major Rebel operations against Federation forces."
+
+ship "Rebel Dragon"
+	sprite "ship/rebel_dragon"
+	thumbnail "thumbnail/rebel_dragon"
+	attributes
+		category "Medium Warship"
+		"cost" 1850000
+		"shields" 4800
+		"hull" 2400
+		"required crew" 12
+		"bunks" 18
+		"mass" 285
+		"drag" 6.2
+		"heat dissipation" .70
+		"fuel capacity" 600
+		"cargo space" 65
+		"outfit space" 520
+		"weapon capacity" 180
+		"engine capacity" 140
+		weapon
+			"blast radius" 92
+			"shield damage" 1850
+			"hull damage" 925
+			"hit force" 2775
+	outfits
+		"Rebel Dragon Beam"
+		"Rebel Beam" 2
+		"Rebel Missile" 60
+		"Rebel Missile Launcher" 2
+		"Rebel Shield" 3
+		"Rebel Fusion Core"
+		"Rebel Battery"
+		"Rebel Drive"
+		"Rebel Steering System"
+		"Hyperdrive"
+	engine -22 55
+	engine 22 55
+	gun 0 -45 "Rebel Dragon Beam"
+	gun -15 -35 "Rebel Beam"
+	gun 15 -35 "Rebel Beam"
+	gun -20 -30 "Rebel Missile Launcher"
+	gun 20 -30 "Rebel Missile Launcher"
+	leak "leak" 35 50
+	leak "flame" 45 80
+	leak "big leak" 65 30
+	explode "tiny explosion" 40
+	explode "small explosion" 65
+	explode "medium explosion" 55
+	explode "large explosion" 35
+	"final explode" "final explosion large"
+	description "The Rebel Dragon is a unique frigate featuring an experimental beam weapon system. Its powerful Dragon Beam can devastate enemy vessels, making it a valuable asset in the Rebellion's fight for independence."
+
+ship "Rebel IDA Frigate"
+	sprite "ship/rebel_ida_frigate"
+	thumbnail "thumbnail/rebel_ida_frigate"
+	attributes
+		category "Medium Warship"
+		"cost" 2200000
+		"shields" 5200
+		"hull" 3200
+		"required crew" 15
+		"bunks" 20
+		"mass" 320
+		"drag" 7.5
+		"heat dissipation" .68
+		"fuel capacity" 650
+		"cargo space" 75
+		"outfit space" 580
+		"weapon capacity" 200
+		"engine capacity" 155
+		weapon
+			"blast radius" 88
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 3300
+	outfits
+		"Rebel Beam Turret" 3
+		"Rebel Missile" 80
+		"Rebel Missile Launcher" 4
+		"Rebel Shield" 3
+		"Rebel Fusion Core"
+		"Rebel Battery" 2
+		"Rebel Drive"
+		"Rebel Steering System"
+		"Hyperdrive"
+		"Interference Plating"
+	engine -25 60
+	engine 25 60
+	gun -20 -40 "Rebel Missile Launcher"
+	gun 20 -40 "Rebel Missile Launcher"
+	gun -15 -42 "Rebel Missile Launcher"
+	gun 15 -42 "Rebel Missile Launcher"
+	turret -18 -20 "Rebel Beam Turret"
+	turret 18 -20 "Rebel Beam Turret"
+	turret 0 15 "Rebel Beam Turret"
+	leak "leak" 32 50
+	leak "flame" 42 80
+	leak "big leak" 62 30
+	explode "tiny explosion" 42
+	explode "small explosion" 72
+	explode "medium explosion" 62
+	explode "large explosion" 42
+	"final explode" "final explosion large"
+	description "A captured IDA Frigate that has been completely refitted for Rebel operations. Enhanced with Rebel technology and weapons systems, it serves as a powerful multi-role warship in the Rebel fleet."

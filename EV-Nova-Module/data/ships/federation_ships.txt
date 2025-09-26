@@ -25,7 +25,7 @@ ship "Federation Viper"
 			"hull damage" 100
 			"hit force" 300
 	outfits
-		"IR Pulse Laser" 2
+		"Pulse Laser" 2
 		"Afterburner"
 		"D14-RN Shield Generator"
 		"nGVF-BB Fuel Cell"
@@ -35,8 +35,8 @@ ship "Federation Viper"
 		"Hyperdrive"
 	engine -9 30
 	engine 9 30
-	gun -7 -10 "IR Pulse Laser"
-	gun 7 -10 "IR Pulse Laser"
+	gun -7 -10 "Pulse Laser"
+	gun 7 -10 "Pulse Laser"
 	leak "leak" 60 50
 	leak "flame" 80 80
 	explode "tiny explosion" 10
@@ -245,3 +245,101 @@ ship "Federation Patrol Boat"
 	explode "small explosion" 5
 	"final explode" "final explosion tiny"
 	description "The Federation Patrol Boat is a small, fast vessel used for system patrol and customs enforcement. While lightly armed and armored, its speed and maneuverability make it effective for intercepting smugglers and maintaining order in Federation space."
+
+ship "Federation Scout Ship"
+	sprite "ship/federation_scout"
+	thumbnail "thumbnail/federation_scout"
+	attributes
+		category "Light Warship"
+		"cost" 320000
+		"shields" 1600
+		"hull" 800
+		"required crew" 2
+		"bunks" 4
+		"mass" 75
+		"drag" 2.1
+		"heat dissipation" .85
+		"fuel capacity" 600
+		"cargo space" 25
+		"outfit space" 180
+		"weapon capacity" 45
+		"engine capacity" 65
+		weapon
+			"blast radius" 28
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"IR Pulse Laser" 2
+		"Hellhound Missile" 20
+		"Hellhound Missile Launcher"
+		"D23-QP Shield Generator"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		"Advanced Scanner"
+		"Outfit Scanner"
+	engine -12 30
+	engine 12 30
+	gun -8 -20 "IR Pulse Laser"
+	gun 8 -20 "IR Pulse Laser"
+	gun 0 -25 "Hellhound Missile Launcher"
+	leak "leak" 60 50
+	leak "flame" 70 80
+	explode "tiny explosion" 15
+	explode "small explosion" 25
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description "The Federation Scout Ship is designed for long-range reconnaissance and intelligence gathering. Equipped with advanced sensors and moderate armament, it can operate independently in hostile territory while providing valuable intelligence to Federation command."
+
+ship "RAGE Gunboat"
+	sprite "ship/rage_gunboat"
+	thumbnail "thumbnail/rage_gunboat"
+	attributes
+		category "Gunboat"
+		"cost" 850000
+		"shields" 2800
+		"hull" 1400
+		"required crew" 8
+		"bunks" 12
+		"mass" 220
+		"drag" 4.5
+		"heat dissipation" .70
+		"fuel capacity" 400
+		"cargo space" 45
+		"outfit space" 380
+		"weapon capacity" 140
+		"engine capacity" 95
+		weapon
+			"blast radius" 55
+			"shield damage" 850
+			"hull damage" 425
+			"hit force" 1275
+	outfits
+		"IR Pulse Turret" 2
+		"Hellhound Missile" 60
+		"Hellhound Missile Launcher" 3
+		"D67-TM Shield Generator"
+		"RT-I Radiothermal" 2
+		"LP144a Battery Pack"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine -20 40
+	engine 20 40
+	gun -15 -30 "Hellhound Missile Launcher"
+	gun 15 -30 "Hellhound Missile Launcher"
+	gun 0 -35 "Hellhound Missile Launcher"
+	turret -10 -10 "IR Pulse Turret"
+	turret 10 -10 "IR Pulse Turret"
+	leak "leak" 45 50
+	leak "flame" 55 80
+	leak "big leak" 75 30
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "The RAGE (Rapid Assault Gunboat Experimental) is a heavily armed patrol vessel designed for anti-pirate operations. Its multiple missile launchers and pulse turrets make it devastating against small to medium-sized threats, though its relatively light construction limits its effectiveness against capital ships."

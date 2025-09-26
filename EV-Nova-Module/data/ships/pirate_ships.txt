@@ -1,0 +1,406 @@
+# Pirate Ships - EV Nova Module
+# Modified and stolen vessels used by various pirate factions
+
+ship "Pirate Viper"
+	sprite "ship/pirate_viper"
+	thumbnail "thumbnail/pirate_viper"
+	attributes
+		category "Fighter"
+		"cost" 140000
+		"shields" 600
+		"hull" 450
+		"required crew" 1
+		"bunks" 2
+		"mass" 42
+		"drag" 1.3
+		"heat dissipation" .85
+		"fuel capacity" 250
+		"cargo space" 12
+		"outfit space" 135
+		"weapon capacity" 30
+		"engine capacity" 40
+		weapon
+			"blast radius" 20
+			"shield damage" 140
+			"hull damage" 70
+			"hit force" 210
+	outfits
+		"Blaster" 3
+		"Civilian Shield"
+		"Civilian Generator"
+		"Civilian Battery"
+		"Civilian Thruster"
+		"Civilian Steering"
+		"Hyperdrive"
+	engine -7 25
+	engine 7 25
+	gun -5 -10 "Blaster"
+	gun 5 -10 "Blaster"
+	gun 0 -12 "Blaster"
+	leak "leak" 75 50
+	leak "flame" 85 80
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description "A stolen civilian Viper modified with additional weapons and armor plating. Pirates have stripped away cargo space and comfort in favor of more firepower, creating a dangerous if fragile fighter."
+
+ship "Pirate Argosy"
+	sprite "ship/pirate_argosy"
+	thumbnail "thumbnail/pirate_argosy"
+	attributes
+		category "Medium Freighter"
+		"cost" 420000
+		"shields" 1200
+		"hull" 2400
+		"required crew" 6
+		"bunks" 12
+		"mass" 210
+		"drag" 6.2
+		"heat dissipation" .60
+		"fuel capacity" 450
+		"cargo space" 75
+		"outfit space" 300
+		"weapon capacity" 85
+		"engine capacity" 90
+		weapon
+			"blast radius" 52
+			"shield damage" 420
+			"hull damage" 210
+			"hit force" 630
+	outfits
+		"Blaster" 4
+		"Javelin Missile" 30
+		"Javelin Missile Launcher"
+		"Civilian Shield" 2
+		"Civilian Generator" 2
+		"Civilian Battery"
+		"Civilian Thruster"
+		"Civilian Steering"
+		"Hyperdrive"
+	engine -18 40
+	engine 18 40
+	gun -12 -25 "Blaster"
+	gun 12 -25 "Blaster"
+	gun -8 -28 "Blaster"
+	gun 8 -28 "Blaster"
+	gun 0 -30 "Javelin Missile Launcher"
+	leak "leak" 50 50
+	leak "flame" 60 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 25
+	explode "small explosion" 40
+	explode "medium explosion" 25
+	"final explode" "final explosion medium"
+	description "A stolen Auroran Argosy retrofitted for piracy. The pirates have added missile launchers and reinforced the hull, though they've had to sacrifice some cargo space for the additional weaponry."
+
+ship "Pirate Thunderhead"
+	sprite "ship/pirate_thunderhead"
+	thumbnail "thumbnail/pirate_thunderhead"
+	attributes
+		category "Heavy Freighter"
+		"cost" 580000
+		"shields" 1000
+		"hull" 2800
+		"required crew" 5
+		"bunks" 8
+		"mass" 190
+		"drag" 7.2
+		"heat dissipation" .60
+		"fuel capacity" 450
+		"cargo space" 90
+		"outfit space" 320
+		"weapon capacity" 60
+		"engine capacity" 95
+		weapon
+			"blast radius" 58
+			"shield damage" 580
+			"hull damage" 290
+			"hit force" 870
+	outfits
+		"Blaster" 3
+		"Javelin Missile" 40
+		"Javelin Missile Launcher" 2
+		"Civilian Shield" 2
+		"Civilian Generator" 2
+		"Civilian Battery"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -20 45
+	engine 20 45
+	gun -10 -25 "Blaster"
+	gun 10 -25 "Blaster"
+	gun 0 -28 "Blaster"
+	gun -15 -20 "Javelin Missile Launcher"
+	gun 15 -20 "Javelin Missile Launcher"
+	leak "leak" 45 50
+	leak "flame" 55 80
+	leak "big leak" 75 30
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 30
+	"final explode" "final explosion medium"
+	description "A heavily modified Thunderhead freighter converted for pirate operations. The pirates have armored the hull and added weapon systems, creating a formidable raider capable of taking on merchant convoys."
+
+ship "Pirate Valkyrie"
+	sprite "ship/pirate_valkyrie"
+	thumbnail "thumbnail/pirate_valkyrie"
+	attributes
+		category "Medium Freighter"
+		"cost" 420000
+		"shields" 800
+		"hull" 1800
+		"required crew" 4
+		"bunks" 6
+		"mass" 140
+		"drag" 5.2
+		"heat dissipation" .65
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 280
+		"weapon capacity" 50
+		"engine capacity" 80
+		weapon
+			"blast radius" 42
+			"shield damage" 420
+			"hull damage" 210
+			"hit force" 630
+	outfits
+		"Blaster" 3
+		"Javelin Missile" 25
+		"Javelin Missile Launcher"
+		"Civilian Shield" 2
+		"Civilian Generator"
+		"Civilian Battery"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	engine -15 35
+	engine 15 35
+	gun -8 -20 "Blaster"
+	gun 8 -20 "Blaster"
+	gun 0 -22 "Blaster"
+	gun -5 -18 "Javelin Missile Launcher"
+	leak "leak" 60 50
+	leak "flame" 70 80
+	leak "big leak" 85 30
+	explode "tiny explosion" 20
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "A stolen Valkyrie freighter modified for pirate raids. The pirates have reinforced the hull and added weapons, though they've reduced cargo capacity to make room for the modifications."
+
+ship "Pirate Enterprise"
+	sprite "ship/pirate_enterprise"
+	thumbnail "thumbnail/pirate_enterprise"
+	attributes
+		category "Light Freighter"
+		"cost" 450000
+		"shields" 1600
+		"hull" 1400
+		"required crew" 5
+		"bunks" 12
+		"mass" 190
+		"drag" 4.8
+		"heat dissipation" .65
+		"fuel capacity" 450
+		"cargo space" 95
+		"outfit space" 300
+		"weapon capacity" 80
+		"engine capacity" 85
+		weapon
+			"blast radius" 45
+			"shield damage" 450
+			"hull damage" 225
+			"hit force" 675
+	outfits
+		"Blaster" 3
+		"Javelin Missile" 20
+		"Javelin Missile Launcher"
+		"Civilian Shield" 2
+		"Civilian Generator"
+		"Civilian Battery"
+		"Auroran Ion Engine"
+		"Auroran Steering"
+		"Hyperdrive"
+	engine -18 45
+	engine 18 45
+	gun -12 -25 "Blaster"
+	gun 12 -25 "Blaster"
+	gun 0 -28 "Blaster"
+	gun -8 -22 "Javelin Missile Launcher"
+	leak "leak" 55 50
+	leak "flame" 65 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 22
+	explode "small explosion" 35
+	explode "medium explosion" 18
+	"final explode" "final explosion medium"
+	description "A stolen Auroran Enterprise that has been modified by pirates. They've kept most of the original Auroran technology while adding their own weapons and defensive modifications."
+
+ship "Pirate Starbridge"
+	sprite "ship/pirate_starbridge"
+	thumbnail "thumbnail/pirate_starbridge"
+	attributes
+		category "Light Warship"
+		"cost" 920000
+		"shields" 2000
+		"hull" 1400
+		"required crew" 5
+		"bunks" 12
+		"mass" 160
+		"drag" 4.2
+		"heat dissipation" .70
+		"fuel capacity" 450
+		"cargo space" 45
+		"outfit space" 360
+		"weapon capacity" 110
+		"engine capacity" 95
+		weapon
+			"blast radius" 46
+			"shield damage" 920
+			"hull damage" 460
+			"hit force" 1380
+	outfits
+		"Blaster" 5
+		"Javelin Missile" 50
+		"Javelin Missile Launcher" 3
+		"Phase Shield"
+		"Civilian Generator" 2
+		"Civilian Battery"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+	engine -15 40
+	engine 15 40
+	gun -10 -30 "Blaster"
+	gun 10 -30 "Blaster"
+	gun -6 -32 "Blaster"
+	gun 6 -32 "Blaster"
+	gun 0 -34 "Blaster"
+	gun -15 -25 "Javelin Missile Launcher"
+	gun 15 -25 "Javelin Missile Launcher"
+	gun 0 -28 "Javelin Missile Launcher"
+	leak "leak" 45 50
+	leak "flame" 55 80
+	leak "big leak" 75 30
+	explode "tiny explosion" 28
+	explode "small explosion" 42
+	explode "medium explosion" 32
+	explode "large explosion" 18
+	"final explode" "final explosion large"
+	description "A heavily modified Starbridge that has been converted into a pirate warship. The pirates have enhanced its weapons systems and added advanced shielding, creating a formidable raider."
+
+ship "Manticore"
+	sprite "ship/manticore"
+	thumbnail "thumbnail/manticore"
+	attributes
+		category "Medium Warship"
+		"cost" 2200000
+		"shields" 5200
+		"hull" 2600
+		"required crew" 18
+		"bunks" 25
+		"mass" 380
+		"drag" 8.5
+		"heat dissipation" .60
+		"fuel capacity" 550
+		"cargo space" 70
+		"outfit space" 620
+		"weapon capacity" 220
+		"engine capacity" 160
+		weapon
+			"blast radius" 88
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 3300
+	outfits
+		"Ion Beam" 4
+		"Javelin Missile" 80
+		"Javelin Missile Launcher" 4
+		"Phase Shield" 2
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	engine -25 60
+	engine 25 60
+	gun -20 -40 "Ion Beam"
+	gun 20 -40 "Ion Beam"
+	gun -15 -42 "Ion Beam"
+	gun 15 -42 "Ion Beam"
+	gun -25 -30 "Javelin Missile Launcher"
+	gun 25 -30 "Javelin Missile Launcher"
+	gun -18 -35 "Javelin Missile Launcher"
+	gun 18 -35 "Javelin Missile Launcher"
+	leak "leak" 32 50
+	leak "flame" 42 80
+	leak "big leak" 62 30
+	explode "tiny explosion" 40
+	explode "small explosion" 70
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
+	description "The Manticore is a custom-built pirate warship designed specifically for raiding operations. Armed with multiple ion beams and missile launchers, it can disable merchant vessels without destroying valuable cargo."
+
+ship "Pirate Carrier"
+	sprite "ship/pirate_carrier"
+	thumbnail "thumbnail/pirate_carrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 3200000
+		"shields" 7200
+		"hull" 3600
+		"required crew" 40
+		"bunks" 55
+		"mass" 720
+		"drag" 15.8
+		"heat dissipation" .50
+		"fuel capacity" 650
+		"cargo space" 120
+		"outfit space" 880
+		"weapon capacity" 300
+		"engine capacity" 220
+		weapon
+			"blast radius" 128
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Blaster Turret" 6
+		"Javelin Missile" 120
+		"Javelin Missile Launcher" 4
+		"Fighter Bay" 2
+		"Pirate Viper" 2
+		"Phase Shield" 2
+		"Fusion Reactor" 2
+		"LP288a Battery Pack"
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	engine -35 85
+	engine 35 85
+	gun -30 -45 "Javelin Missile Launcher"
+	gun 30 -45 "Javelin Missile Launcher"
+	gun -20 -50 "Javelin Missile Launcher"
+	gun 20 -50 "Javelin Missile Launcher"
+	turret -25 -25 "Blaster Turret"
+	turret 25 -25 "Blaster Turret"
+	turret -20 -10 "Blaster Turret"
+	turret 20 -10 "Blaster Turret"
+	turret -15 15 "Blaster Turret"
+	turret 15 15 "Blaster Turret"
+	bay "Fighter" -40 20
+	bay "Fighter" 40 20
+	leak "leak" 28 50
+	leak "flame" 38 80
+	leak "big leak" 58 30
+	explode "tiny explosion" 50
+	explode "small explosion" 85
+	explode "medium explosion" 75
+	explode "large explosion" 55
+	explode "huge explosion" 30
+	"final explode" "final explosion huge"
+	description "A stolen or captured Federation Carrier that has been converted for pirate operations. The pirates have modified its fighter bays and weapon systems to better suit their raiding tactics."

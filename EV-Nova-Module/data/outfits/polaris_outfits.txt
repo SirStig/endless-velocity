@@ -1,0 +1,196 @@
+# Polaris Bio-Tech Outfits - EV Nova Module
+# Living technology and organic systems unique to the Polaris
+
+# Bio-Weapons
+outfit "Bio-Electric Beam"
+	category "Guns"
+	cost 285000
+	thumbnail "outfit/bio_electric_beam"
+	"mass" 28
+	"outfit space" -42
+	"weapon capacity" -42
+	"gun ports" -1
+	weapon
+		sprite "projectile/bio_electric"
+		sound "bio electric"
+		"hit effect" "bio electric impact"
+		"inaccuracy" 0.8
+		"velocity" 32
+		"lifetime" 28
+		"reload" 18
+		"firing energy" 65
+		"firing heat" 45
+		"shield damage" 185
+		"hull damage" 140
+		"hit force" 85
+		"ion damage" 4
+	description "The Bio-Electric Beam channels bio-electrical energy through living conduits, creating a focused energy discharge. The organic nature of the weapon allows it to adapt to different targets and disrupt electronic systems."
+
+outfit "Bio-Plasma Cannon"
+	category "Guns"
+	cost 485000
+	thumbnail "outfit/bio_plasma_cannon"
+	"mass" 55
+	"outfit space" -82
+	"weapon capacity" -82
+	"gun ports" -1
+	weapon
+		sprite "projectile/bio_plasma"
+		sound "bio plasma"
+		"hit effect" "bio plasma impact"
+		"inaccuracy" 1.2
+		"velocity" 25
+		"lifetime" 35
+		"reload" 35
+		"firing energy" 145
+		"firing heat" 85
+		"shield damage" 385
+		"hull damage" 285
+		"hit force" 180
+		"piercing" 0.15
+	description "The Bio-Plasma Cannon generates superheated organic plasma through biological processes. The living weapon can modify its output characteristics based on combat conditions, making it highly versatile."
+
+outfit "Polaris Torpedo"
+	category "Ammunition"
+	cost 8500
+	thumbnail "outfit/polaris_torpedo"
+	"mass" 1.2
+	"polaris torpedo capacity" -1
+	description "Polaris Torpedoes are living projectiles that can adapt their behavior during flight. Their bio-neural guidance systems and organic warheads make them extremely effective against a wide variety of targets."
+
+outfit "Polaris Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 385000
+	thumbnail "outfit/polaris_torpedo_launcher"
+	"mass" 45
+	"outfit space" -68
+	"weapon capacity" -68
+	"gun ports" -1
+	"polaris torpedo capacity" 15
+	weapon
+		sprite "projectile/polaris_torpedo"
+		sound "polaris torpedo"
+		ammo "Polaris Torpedo"
+		icon "icon/polaris_torpedo"
+		"hit effect" "huge explosion"
+		"die effect" "large explosion"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 320
+		"reload" 180
+		"firing energy" 8
+		"firing heat" 25
+		"acceleration" 1.5
+		"drag" .05
+		"turn" 6.5
+		"homing" 8
+		"tracking" .98
+		"shield damage" 1200
+		"hull damage" 950
+		"hit force" 580
+		"missile strength" 65
+	description "The Polaris Torpedo Launcher fires living missiles with sophisticated bio-neural guidance systems. These organic torpedoes can adapt their attack patterns and are extremely difficult to intercept."
+
+outfit "Polaris Multi-Torpedo"
+	category "Ammunition"
+	cost 12000
+	thumbnail "outfit/polaris_multi_torpedo"
+	"mass" 1.8
+	"polaris multi-torpedo capacity" -1
+	description "The Multi-Torpedo is an advanced Polaris weapon that splits into multiple seeking warheads upon approaching its target. Each sub-warhead has its own bio-neural guidance system."
+
+outfit "Polaris Multi-Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 685000
+	thumbnail "outfit/polaris_multi_torpedo_launcher"
+	"mass" 68
+	"outfit space" -95
+	"weapon capacity" -95
+	"gun ports" -1
+	"polaris multi-torpedo capacity" 8
+	weapon
+		sprite "projectile/polaris_multi_torpedo"
+		sound "polaris multi torpedo"
+		ammo "Polaris Multi-Torpedo"
+		icon "icon/polaris_multi_torpedo"
+		"hit effect" "huge explosion"
+		"die effect" "large explosion"
+		"inaccuracy" 3
+		"velocity" 10
+		"lifetime" 380
+		"reload" 220
+		"firing energy" 12
+		"firing heat" 35
+		"acceleration" 1.2
+		"drag" .04
+		"turn" 7.0
+		"homing" 9
+		"tracking" .99
+		"shield damage" 1800
+		"hull damage" 1400
+		"hit force" 850
+		"missile strength" 85
+		"submunition" "Polaris Torpedo" 3
+	description "The Multi-Torpedo Launcher fires sophisticated organic missiles that separate into multiple guided warheads near their target. This makes them extremely difficult to defend against and devastatingly effective."
+
+# Bio-Defense Systems
+outfit "Bio-Adaptive Plating"
+	category "Systems"
+	cost 185000
+	thumbnail "outfit/bio_adaptive_plating"
+	"mass" 22
+	"outfit space" -35
+	"shield generation" 2.8
+	"shield energy" 2.2
+	"energy consumption" 1.8
+	"adaptive" 0.05
+	description "Bio-Adaptive Plating is living armor that can modify its properties in response to different types of damage. The organic material learns from each attack and becomes more resistant to similar damage types."
+
+# Bio-Power Systems
+outfit "Bio-Energy Converter"
+	category "Power"
+	cost 285000
+	thumbnail "outfit/bio_energy_converter"
+	"mass" 45
+	"outfit space" -68
+	"energy generation" 8.5
+	"heat generation" 4.2
+	"bio-efficiency" 0.15
+	description "The Bio-Energy Converter uses organic processes to generate power more efficiently than mechanical systems. Living bio-reactors can adapt their output based on the ship's energy needs."
+
+outfit "Bio-Neural Processor"
+	category "Power"
+	cost 485000
+	thumbnail "outfit/bio_neural_processor"
+	"mass" 35
+	"outfit space" -52
+	"energy capacity" 8500
+	"bio-neural" 1
+	description "The Bio-Neural Processor is a living computer system that can process information and store energy simultaneously. Its organic neural networks provide superior performance compared to electronic systems."
+
+# Bio-Engines
+outfit "Bio-Plasma Drive"
+	category "Engines"
+	cost 385000
+	thumbnail "outfit/bio_plasma_drive"
+	"mass" 68
+	"outfit space" -95
+	"engine capacity" -95
+	"thrust" 58.5
+	"thrusting energy" 6.8
+	"thrusting heat" 8.2
+	"bio-adaptive" 0.1
+	description "The Bio-Plasma Drive uses organic plasma generation to provide thrust. The living engine can adapt its performance characteristics based on flight conditions and combat requirements."
+
+outfit "Bio-Neural Steering"
+	category "Engines"
+	cost 285000
+	thumbnail "outfit/bio_neural_steering"
+	"mass" 42
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 1850
+	"turning energy" 4.8
+	"turning heat" 6.2
+	"bio-neural" 0.08
+	description "Bio-Neural Steering systems use living neural networks to provide incredibly responsive ship control. The organic steering system can anticipate pilot intentions and react faster than mechanical systems."
